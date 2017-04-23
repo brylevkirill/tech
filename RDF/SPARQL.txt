@@ -1,0 +1,87 @@
+SPARQL
+	http://slideshare.net/LeeFeigenbaum/sparql-cheat-sheet
+	http://slideshare.net/scotthenninger/toronto-semanticmeetup-20130512
+
+	samples of SPARQL queries:
+		http://factforge.net/sparql
+		http://lod.openlinksw.com/b3s/
+		http://linkedlifedata.com/sparql
+		http://code.google.com/p/void-impl/wiki/SPARQLQueriesForStatistics
+
+	SPARQL sexy end-points with query validation:
+		http://yasgui.laurensrietveld.nl
+		http://sparqlbin.com
+
+	end-points of knowledge bases:
+		http://dbpedia.org/sparql
+		http://wordnet.rkbexplorer.com/sparql
+
+	visualizations of data web exposed via SPARQL end-point:
+		interactive relationship discovery in RDF data - http://www.visualdataweb.org/relfinder.php
+		visual analysis of trends and correlations in RDF data - http://www.visualdataweb.org/semlens.php
+		graph-based faceted exploration of RDF data - http://www.visualdataweb.org/gfacet.php
+		hierarchical faceted exploration of RDF data - http://www.visualdataweb.org/tfacet.php
+		web of data browser - http://youtube.com/watch?v=3bt7XpgXPuc + http://en.lodlive.it
+		transformation of natural language query to SPARQL query - http://quepy.machinalis.com
+
+	comparison with SQL - http://sofsem.cz/sofsem15/files/presentations/invited/Manthey.pdf
+	advanced tutorials - http://virtuoso.openlinksw.com/tutorials/sparql/
+
+	implementations - http://w3.org/wiki/SparqlImplementations
+
+	- property paths / graph traversal queries (samples - http://w3.org/TR/sparql11-query/#propertypath-examples)
+		* property alternatives
+		* inverse property paths
+		* templates for arbitrary length paths
+		* negated property paths
+	- left join operator OPTIONAL
+	- union operator
+	- conditional operator (NOT) EXISTS, COALESCE, IF
+	- graphs subtraction operator MINUS for negation
+	- aggregate operators - GROUP BY
+	- subqueries (nested queries)
+	- set of alternative values - VALUES
+	- expressions in SELECT clause
+	- assignment of expressions to variables
+	- testing variable for null value - BOUND
+	- built-in functions and operators
+		* string, regex, date, hashing, math, UUID, locales functions
+		* concatenation of items in solution group - GROUP_CONCAT
+		* random item of solution group - SAMPLE
+	- query against default graph composed of multiple sources given as URIs
+	- query against multiple named graphs each given as URI
+	- entailment/reasoning regimes
+	- DESCRIBE query - to get summary or full description of resources mentioned in query
+
+	SPARQL Federated Query
+		http://w3.org/TR/sparql11-federated-query/
+	        https://plus.google.com/112399767740508618350/posts/dq3hr3ZJdkC
+        	support for SPARQL Federated Query and for regular SPARQL Query over federated sources - http://fluidops.com/fedx/
+
+		* FluidOps FedX (open-source implementation)
+			http://fluidops.com/fedx/
+			demo - http://fedx.fluidops.net/resource/Help:Start
+
+			- virtual integration of heterogeneous Linked Data sources
+			- implemenation of SPARQL Federated Query and regular SPARQL Query over federated RDF data sources
+
+	SPARQL Service Description vocabulary - http://w3.org/TR/sparql11-service-description/
+
+	performance of SPARQL vs SQL in Virtuso for analytics benchmark - http://goo.gl/0Q38OV
+	SPARQL vs REST API (critics of SPARQL) - http://daverog.wordpress.com/2013/06/04/the-enduring-myth-of-the-sparql-endpoint/
+	"Querying a Web of Linked Data" by Olaf Hartig
+
+	Terp syntax extension (based on Manchester syntax) for querying OWL ontologies -
+		http://weblog.clarkparsia.com/2010/04/01/pellet-21-introducing-terp
+		http://slideshare.net/candp/owled-2010-terp
+
+	Turing machine as SPARL Update query - http://brunni.de/sparql_turing_machine.txt
+
+	CSV to RDF converter which uses SPARQL syntax and engine - https://github.com/cygri/tarql
+
+	Gremlin query language for graph databases
+		SPARQL vs Gremlin - https://github.com/tinkerpop/gremlin/wiki/SPARQL-vs.-Gremlin
+		automatic translation of SPARQL queries - https://github.com/tinkerpop/gremlin/wiki/LinkedData-Sail
+		supported by Stardog (via LinkedData-Sail) and Google Cayley RDF databases
+
+<brylevkirill@gmail.com>

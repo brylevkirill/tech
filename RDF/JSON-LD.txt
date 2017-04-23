@@ -1,0 +1,137 @@
+JSON-LD
+	* format for representation of semantically annotated resource and resource graph for Web as Platform - http://json-ld.org/spec/latest/json-ld-syntax/
+	* WebIDL API for manipulation with representations of resource and resource graph in client code (such as JavaScript) - http://json-ld.org/spec/latest/json-ld-api/
+	* format and API for querying resource graph - http://json-ld.org/spec/latest/json-ld-framing/
+
+	introduction in Russian - http://habrahabr.ru/sandbox/78803/
+	introduction in English -
+		http://youtube.com/watch?v=vioCbTo3C-4 + http://seoskeptic.com/what-is-json-ld/
+		https://youtube.com/watch?v=UmvWk_TQ30A
+		https://youtube.com/watch?v=5haIUu6OvRU
+
+	features - https://dropbox.com/s/stonyheqac7iylp/JSON-LD%20features (in russian)
+
+	JSON-LD in REST API - http://slideshare.net/lanthaler/a-deep-dive-into-jsonld-and-hydra
+
+	http://manu.sporny.org/2014/json-ld-origins/
+	http://manu.sporny.org/2014/json-ld-origins-2/
+
+	state of JSON-LD in early 2017 - https://slideshare.net/gkellogg1/jsonld-update
+
+	state of adoption
+		used on several million web sites accordingly to danbri@google.com - https://github.com/w3c/webpayments/issues/27#issuecomment-179207196
+
+		https://github.com/json-ld/json-ld.org/wiki/Users-of-JSON-LD
+
+		Schema.org by Google, Microsoft, Yahoo and Yandex
+			http://blog.schema.org/2013/06/schemaorg-and-json-ld.html
+		Google Search
+			https://support.google.com/webmasters/answer/4620133
+			https://support.google.com/webmasters/answer/3069489
+			https://developers.google.com/webmasters/richsnippets/sitelinkssearch
+		Android Search
+			https://medium.com/@wjarek/towards-machine-understandable-service-descriptions-at-web-scale-65af3038de4
+		Gmail
+			https://developers.google.com/gmail/actions/getting-started
+			https://developers.google.com/gmail/actions/reference/formats/json-ld
+			https://developers.google.com/gmail/actions/reference/one-click-action
+		Microsoft Bing
+			http://msdn.microsoft.com/en-us/library/dn614166.aspx
+		Microsoft Phone Cortana
+			http://msdn.microsoft.com/en-us/library/dn632191.aspx
+
+		http://manu.sporny.org/2013/json-ld-is-the-bees-knees/
+
+	features / test-cases - http://json-ld.org/test-suite/reports/
+
+	http://fundatrixblog.wordpress.com/2014/08/06/need-to-add-semantic-to-the-node-red-msg-payload/
+	http://blog.nuget.org/20140715/nuget-3.0-ctp1.html
+
+	http://activitystrea.ms + http://tools.ietf.org/html/draft-snell-activitystreams-09
+
+	[reading material]
+	- http://slideshare.net/gkellogg1/json-for-linked-data + http://slideshare.net/gkellogg1/jsonld-linked-data-for-web-apps - presentations
+	- http://groups.drupal.org/node/197583#comment-767058 - overview of features
+	- http://markus-lanthaler.com/research/on-using-json-ld-to-create-evolvable-restful-services.pdf
+	- http://mnot.net/blog/2011/11/25/linking_in_json + comment by Manu Sporny
+	- http://json-ld.org/playground/ - examples
+
+	[features]
+	- support for marking/linking JSON property value with URI to full representation of object represented by property value (can be URI to another document or element in the same document)
+	- support for marking/linking JSON property name with URI representing universal id of property (can be URI to schema or documentation for property value)
+	- support for embedding definition of object as value for property of another object
+	- support for namespaces and compact URIs/names for property names and values
+	- support for declaring types (multiple) for property value (including "id" type)
+	- support for mutiple locales for property value - http://json-ld.org/spec/latest/json-ld-syntax/#string-internationalization
+	- support for named graph (graph with exposed id) as collection of objects
+	- support for exposing existing non JSON-LD documents as JSON-LD documents by adding reference to context (so that it is possible to expose existing non-APS JSON API as APS API)
+	- support for querying/framing using strict-typing or duck-typing
+	- support for inverse properties - https://github.com/json-ld/json-ld.org/issues/221
+
+	[APIs]
+	- document expansion API - jsonld.expand() - replacing aliases for IRIs, datatypes and values with canonical form, with elimination of references to context
+	- document compactization API - jsonld.compact() - replacing IRIs, datatypes and values in canonical form with aliases, accordingly to supplied context
+	- document framing API (XSLT-like transformations) - jsonld.frame() - querying graph by example (filtering) and laying out graph into requested structure (scaffolding) - http://lists.w3.org/Archives/Public/public-linked-json/2011Aug/0078.html
+	- document normalization API - jsonld.normalize() - transforming graph of subjects into canonical form (graph signing, graph diffing, graph equality testing)
+	- document flattening API - jsonld.flatten() - transforming graph of subjects into list of subjects with linking preserved
+	- document graph structure API (work-in-progress) - jsonld.objectify() - functionality to represent processed graph in API as language structure which can be traversed via possibly circular links - https://github.com/json-ld/json-ld.org/issues/140
+	- document RDF/triples API - jsonld.fromRDF/toRDF() - http://json-ld.org/spec/latest/json-ld-api/#rdf-conversion + http://lists.w3.org/Archives/Public/public-linked-json/2012Mar/0017.html
+
+	[query API]
+	* framing/querying (similar to Metaweb Query Language for Freebase)
+		http://lists.w3.org/Archives/Public/public-linked-json/2011Aug/0078.html
+		http://json-ld.org/spec/latest/json-ld-framing/#framing-algorithm
+
+		- "@embed": true/false - flag to specify if full definition or just IRI for matched subject has to be embedded into frame
+		- "@explicit": true/false - flag to exclude properties of matched subject that aren't explicitly specified in the frame
+		- "@default": "value" - value to be assigned for missing property instead of null, such as for strict-typed search (as opposed to duck-typed) over subjects, some of which may not define property specified in frame query + "@omitDefault": true - skipping property which would otherwise be assigned with null
+		- restriction in the current framing algorithm that requires that subjects only be embedded up to once in an output document
+
+		http://lists.w3.org/Archives/Public/public-linked-json/2012Jul/0043.html - Thoughts on querying JSON-LD
+	* SQL-like query interface in Apache Stanbol project
+		http://stanbol.apache.org/docs/trunk/components/factstore/specification.html
+
+	[Hydra API]
+	* vocabulary shared between server and client for generic description of API - http://markus-lanthaler.com/hydra/ + https://dropbox.com/s/rafruw54bu9u32z/Hydra.txt
+
+	[samples]
+	REST API primer for W3C LDP with serialization in JSON-LD - http://w3.org/TR/ldp-primer/
+	sample serialization of RDFS schema - http://www.markus-lanthaler.com/hydra/spec/latest/core/#the-hydra-core-vocabulary-in-json-ld
+
+	[implementations]
+	libraries for C++, Java, JavaScript, PHP, Python, Ruby - http://json-ld.org/
+
+	JSON-LD processor from Digital Bazaar (reference implementation for spec)
+		JavaScript - https://github.com/digitalbazaar/jsonld.js/#readme + demo http://json-ld.org/playground/ + NodeJS module https://npmjs.org/package/jsonld
+		Python - https://github.com/digitalbazaar/pyld + https://github.com/RDFLib/rdflib-jsonld
+		PHP - https://github.com/digitalbazaar/php-json-ld/blob/master/jsonld.php
+
+	JSON-LD processor with complete and extended support for framing
+		PHP - https://github.com/lanthaler/jsonLD + demo at http://markus-lanthaler.com/jsonld/playground
+		http://bit.ly/NsNS6V - sample for graph querying/framing
+
+		- value matching - https://github.com/json-ld/json-ld.org/issues/110
+		- deep-filtering - https://github.com/json-ld/json-ld.org/issues/110
+		- aggressive re-embedding via "@embedChildren" - https://github.com/json-ld/json-ld.org/issues/119 - automatically include the whole sub-tree
+		- named graphs - https://github.com/json-ld/json-ld.org/issues/118
+
+	https://github.com/antoniogarrote/json-ld-macros - library for declarative transformation of payload for JSON API into JSON-LD on client side or proxy (without any modifications to original API) to enable consuming non-semantic JSON APIs from semantic applications
+
+	https://github.com/antoniogarrote/rdfstore-js - JS RDF store with support for JSON-LD and SPARQL (MongoDB storage back-end, browser/NodeJS)
+	http://slideshare.net/gkellogg1/jsonld-and-mongodb
+
+	https://github.com/RDFLib/rdflib-jsonld - Python converter between JSON-LD and RDFa
+	http://w3.org/2012/pyRdfa/Overview.html - Python converter from RDFa to JSON-LD
+
+	https://gist.github.com/niklasl/2770154 - generator of JSON-LD context from an RDF vocabulary
+	https://gist.github.com/niklasl/7873635 - generator of JSON-LD context from schema.org
+	https://github.com/stain/owl2jsonld - generator of JSON-LD context from OWL ontology
+
+	publishing JSON-LD context containing definition of OWL ontology
+		Activity Streams 2.0 - http://asjsonld.mybluemix.net
+		schema.org - http://schema.org/docs/jsonldcontext.json.txt
+		schema.org - https://github.com/ruby-rdf/json-ld/blob/develop/etc/schema.org.jsonld
+		Hydra - http://w3.org/ns/hydra/context.jsonld
+
+
+<brylevkirill@gmail.com>

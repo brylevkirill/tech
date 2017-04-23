@@ -1,0 +1,110 @@
+W3C Linked Data Platform
+	RESTful API with RDF as data model and REST as interaction model - fusion of REST and RDF aimed to solve interoperability issue for REST APIs
+
+	http://w3.org/TR/ldp/
+	http://w3.org/TR/ldp-paging/
+
+	introduction - http://video.dataversity.net/video/the-w3c-linked-data-platform-ldp/
+
+	initiated and lead by IBM at W3C - competitor to OData initiated and lead by Microsoft at DMTF
+	base API for OASIS OSLC lead from IBM - platform for service management and integration - https://dropbox.com/s/9zpw2zipn1v0p9a/OSLC.txt
+
+	comments by Google Cloud Platform PM (regarding universal cloud API and parallels to WS-* efforts) - http://stage.vambenepe.com/archives/1989
+
+	https://dropbox.com/s/e1ox5rotia2upns/Linked%20Data%20Platform%20as%20a%20novel%20approach%20for%20Enterprise%20Application%20Integration.pdf :
+
+		"Service-Oriented Architecture (SOA), which is currently the most popular approach for EAI in the industry, is an architectural style for building enterprise applications using independent business-aligned services that can be combined into agile and exible business processes.
+		Services are well-defined, self-describing, and platform-agnostic computational elements that provide discrete units of business functionality through a service contract and support a rapid and low-cost composition of distributed applications.
+		The standard and discoverable interfaces provided by services help overcoming the application connectivity challenge of EAI; however, the information integration challenges require handling complex transformations between the different domain models used by the applications.
+		Furthermore, applications still act as data silos that are not linked but duplicated in many applications.
+		Despite Service-Oriented systems foster application communication and interoperability, they do not address the semantic interoperability problem. As an attempt to solve this, Semantic Web Services (SWS) try to combine Web Services with Semantic Web technologies by annotating services with semantic markup."
+	
+		"LDP enables a novel approach for integrating applications. Applications that support the LDP protocol can expose all or part of their data using one or more vocabularies and can consume Linked Data from other applications.
+		In contrast to traditional applications, the data that LDP applications expose and consume can have links to data in other applications.
+		Thus, these applications are capable of crawling Linked Data, traversing through data according to their business needs, and interacting with applications that expose those data using the LDP protocol."
+	
+		"Application integration, where most benefits from LDP are visible, can again be divided into two different levels: application connectivity (interfaces) and data integration.
+		In data integration, there are three heterogeneity problems to be solved: syntactic heterogeneity, structural heterogeneity, and semantic heterogeneity.
+		The usage of standardized data exchange formats solves the syntactic heterogeneity problem for both traditional and LDP-based EAI.
+		The graph-based exible RDF data model obsoletes the structural heterogeneity problem and makes integration from multiple data sources possible even if their schemas differ or are unknown.
+		Traditional EAI based on hierarchal XML data types with strict structural schemas requires complex schema transformations.
+		Ontology-based data integration approaches can be used to overcome the semantic heterogeneity problem either by using a global ontology, multiple ontologies, or a hybrid approach.
+		By following the links created according to the Linked Data principles, new ontologies can be discovered which can be mapped to the ones that the application is aware of with the help of ontology alignment techniques."
+	
+		"Approaches for business integration at the process level depend on how much each application is aware of the whole business process and on who is driving the process.
+		Orchestration and choreography are two ways in which business processes can be described and implemented.
+		In orchestration, the business process is controlled and driven by an orchestrator in a centralized manner and in choreography interactions are implemented as a distributed collaboration between applications where each application is aware of its part of the whole process.
+		LDP applications can support both approaches.
+	        Further, LDP applications can use the fourth Linked Data rule (i.e., include links to other dereferenceable URIs so that they can discover more things) and the HATEOAS REST principle to discover new applications without any previous knowledge about them and to communicate with them using the LDP protocol, thus enabling agile business processes. This is a major advantage over the existing approaches."
+	
+		"Linked Data-based Enterprise Application Integration has several advantages over current EAI approaches when it comes to application and data integration. To summarize,
+		(a) Linked Data allows having global identifiers for data that can be accessed using the Web infrastructure and typed links between data possibly from different applications
+		(b) the graph-based RDF data model allows consuming and merging data without having to do complex structural transformations, and
+		(c) application specific domain conceptualizations expressed in terms of RDF Schema or OWL ontologies can be aligned and mapped to other applications using knowledge representation techniques much easier than in traditional approaches."
+	
+		"The Linked Data Platform protocol provides a standard uniform interface for managing these data. Having a standard for building interoperable Linked Data applications is a big step towards the industrial adoption of Linked Data as an application integration approach. LDP allows breaking data silos in applications and helps building integrated applications that can link to data in related applications using standards, enabling clients to discover and interact with those applications in a scalable manner."
+
+
+	introduction
+		http://slideshare.net/lehors/www2013-linked-data-platform-20130515-21273699
+		http://youtube.com/watch?v=YxkFS8r3OUE + http://slideshare.net/Dataversity/2014-ldp-webinar-20140806
+
+	summary - http://apihub.com/api/w3c-ldp-api
+	overview - http://w3.org/2012/ldp/wiki/ISSUE-37#Proposed_Spec_Section_.28for_the_LDP_Spec.29
+
+	REST API primer (with serialization in JSON-LD) - http://w3.org/TR/ldp-primer/
+
+	use-cases (total number is 15) - http://w3.org/TR/2013/WD-ldp-ucr-20130131/
+	test-cases - https://dvcs.w3.org/hg/ldpwg/raw-file/default/Test%20Cases/LDP%20Test%20Cases.html
+
+	working documents - http://w3.org/2012/ldp/wiki/Main_Page
+
+	scope and schedule (last draft on May 2013) - http://w3.org/2012/ldp/charter
+	original submission by IBM - http://w3.org/Submission/2012/SUBM-ldbp-20120326/
+	background for submission by IBM - http://w3.org/2001/sw/sweo/public/UseCases/IBM/ + http://w3.org/QA/2012/05/interview_ibm_on_a_linked_data.html
+
+	example of API based on LDP - https://linkeddata.github.io/SoLiD/
+
+	implementations
+		http://ldp4j.org - Java implementation of server and client
+		https://github.com/fpriyatna/morph-LDP - LDP interface over relational database (Java implementation of server)
+		https://github.com/linkeddata/gold - Go implementation
+		https://marmotta.apache.org - Java implementation
+		https://github.com/linkeddata/node-ldp-httpd - JavaScript implementation from W3C
+		https://github.com/bergos/ldp - NodeJS implementation
+		https://github.com/AKSW/node_ldp - NodeJS implementation
+		https://github.com/read-write-web/rww-play - Play implementation
+		https://github.com/deiu/rww.io - Python implementation
+		https://github.com/spadgett/LDPjs - JavaScript implementation from IBM
+		http://wiki.eclipse.org/Lyo/BuildLDPSample - IBM's Java implementation for Eclipse
+	other implementations - http://w3.org/wiki/LDP_Implementations
+
+	* Turtle as default serialization format for RDF, JSON-LD as another mandatory format to support
+	* transactions not covered yet
+	* access control not covered yet but work started - http://w3.org/TR/2014/NOTE-ldp-acr-20140916/
+	* features planned for futures - http://w3.org/2012/ldp/wiki/LDPNext
+
+	technical issues to be solved
+		What is the minimum set of RDF datatypes that must be supported by clients and servers?
+		Which RDF serialization syntax (eg Turtle or JSON-LD) must be supported by clients and servers?
+		How to create a new resource, which might be a new collection?
+		How to create a resource with information describing the resource, when the resource address isn't known at creation time?
+		How to access resource state in reasonably-sized chunks (paging)?
+		How to safely (predictably) modify a resource simultaneously from multiple clients? (concurrency)
+		Can resource have multiple rdf:types? Can their rdf:types change?
+		How can a client modify a resource without replacing the complete contents?
+		How to get a list of all the resources in collection?
+		How to move a resource in or out of a collection?
+		How may a client determine whether/how it may modify a resource?
+		How to operate on multiple resources at once, for efficiency or to group a set of changes into one atomic operation?
+		How to integrate with SPARQL, including how to find a SPARQL endpoint serving data for a particular resource? (To be coordinated with SPARQL community/WG.)
+		Which vocabulary terms are to be used for resource metadata, when necessary for interoperation?
+		Are there situations where use of blank nodes is allowed/disallowed?
+		How client software may determine at runtime which RDF vocabulary terms to use when reading/writing resource state? (This information may be used to support validation and vocabulary changes.)
+
+	proposals from CrossCloud project - http://lists.w3.org/Archives/Public/public-ldp-wg/2014Nov/0010.html
+
+	"However, there is still some work to be done on fulfilling the quality requirements imposed by the industry to make the approach enterprise ready and exploit the full potential of LDP such as supporting advanced security scenarios, transactions, data consistency, link maintenance, notifications, eventing, data validation, and discovery of vocabularies and data model restrictions. At the moment, some of these requirements are fulfilled by LDP applications using their own proprietary mechanisms but having interoperable standard mechanisms will help LDP to be more widely adapted as a novel approach for EAI."
+
+
+<brylevkirill@gmail.com>

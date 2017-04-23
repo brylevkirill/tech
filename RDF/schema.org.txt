@@ -1,0 +1,118 @@
+schema.org
+	"collection of schemas that webmasters can use to markup HTML pages in ways recognized by major search providers, and that can also be used for structured data interoperability in JSON"
+
+	"The goal is not just to get the structured data, it's just a means to the end - the first generation of applications were search results, and the interesting thing is many more newer applications are coming."
+	"Since this sentence was written, twelve years ago, ambitious and collective initiatives have been undertaken to revolutionize what machines can do for us on the web. When I make a purchase online, my email service is able to understand it from the purchase confirmation email, communicate to the online store service, authenticate, obtain information on the delivery, and provide me with a real-time representation of where the item is located. Machines now have the means to process data in a smarter way, and to communicate over it!"
+	"Schema.org is the killer app of the semantic web. Google is the killer app of the semantic web."
+
+	http://schema.org
+	https://www.w3.org/community/schemaorg/
+
+	introduction and current state
+		http://googleresearch.blogspot.ru/2015/12/four-years-of-schemaorg-recent-progress.html
+		http://queue.acm.org/detail.cfm?id=2857276
+			"We report some key schema.org adoption metrics from a sample of 10 billion pages from a combination of the Google index and Web Data Commons. In this sample, 31.3% of pages have schema.org markup, up from 22% one year ago. Structured data markup is now a core part of the modern web.
+
+		https://pinterest.com/kidehen/schemaorg-related/
+
+		december 2014 -
+			http://youtube.com/watch?v=-UljtBjV8jM
+		august 2014 -
+			http://video.dataversity.net/video/search-structure-and-knowledge-on-the-web/
+			https://dropbox.com/s/og25gbxfhdagr1w/RDF%20adoption%20on%20the%20web.jpg (rate of adoption on the web)
+			http://slideshare.net/rvguha/sem-tech2014c
+			http://video.dataversity.net/video/schemaorg-official-update/
+		october 2013 - 
+			http://semanticweb.com/schema-org-chat-googles-r-v-guha_b40607
+			http://videolectures.net/iswc2013_guha_tunnel/
+
+	technical overview - http://w3.org/2013/04/odw/odw13_submission_53.pdf
+
+	types -
+		http://schema.org/docs/schemas.html
+		http://w3.org/wiki/WebSchemas/SchemaDotOrgProposals
+		https://github.com/schemaorg/schemaorg/blob/15d5158c06602cea4efc3291f6675209531697e2/data/stats_types.csv
+
+	schemas -
+		http://schema.rdfs.org
+		http://topbraid.org/schema/
+		http://schema.org/docs/schemaorg.owl
+
+		http://schema.org/docs/jsonldcontext.json.txt - JSON-LD context
+		https://github.com/ruby-rdf/json-ld/blob/develop/etc/schema.org.jsonld - JSON-LD context and OWL schema in single file
+
+		http://schema.org/docs/releases.html - history of addition
+
+	schema.org adoption study requested by Google -
+		http://searchmetrics.com/en/searchmetrics/press/schema-org-in-google-search-results/
+		http://searchmetrics.com/en/knowledge-base/schemaorg-study-request/
+
+	schema.org applications - https://dropbox.com/s/72yzslwh5fmefvp/why%20RDF.txt (in russian)
+
+	relation between schema.org, RDF and Linked Data - http://lists.w3.org/Archives/Public/public-vocabs/2014Jun/0010.html
+	model-theoretic analysis - https://github.com/lidingpku/iswc2014/raw/master/paper/87960257-analyzing-schemaorg.pdf
+
+	methods for designing vocabularies for data on the Web - http://blog.mynarz.net/2014/07/methods-for-designing-vocabularies-for.html
+	vocabularies for the web of data and principles of least markup - http://blog.mynarz.net/2013/07/vocabularies-for-web-of-data-and.html
+
+	RDFa annotations in HTML - http://w3.org/TR/xhtml-rdfa-primer/
+	http://blog.heppresearch.com/2014/03/24/json-ld-finally-google-honors-invisible-data-for-seo/
+
+	Action type - http://schema.org/docs/actions.html
+		sample use-cases:
+			- Restaurants that allow reservations and orders (e.g. food delivery or for pickup)
+			- Movies that can be watched, songs that can be listened
+			- Hotels that can book rooms
+			- Taxis that can be reserved
+			- Airlines that can find flights
+			- Flights that can be reserved or checked-in
+			- Cars that can be rented
+			- Local Businesses providing appointments
+			- Organizations that allow you to search for Stores
+			- Things that can be reviewed
+			- Package deliveries that can be tracked
+			- Events that can be RSVPed
+			- Products/Movies that can be reviewed
+			- Expense approvals that can be confirmed
+			- Offers that can be saved
+
+		https://dropbox.com/s/bo5uc2ckp90ewpc/schema.org%20Actions.pdf
+		http://blog.sgo.to/2014/02/a-proposal-for-schema-org-actions.html
+
+		used by GMail - https://developers.google.com/gmail/actions/ + https://developers.google.com/gmail/actions/reference/index
+		used by Yandex Islands platform - http://habrahabr.ru/company/yandex/blog/190760/
+
+		possibility to add constraints ("buy something only if you are from given countries")
+
+	Role type - http://blog.schema.org/2014/06/introducing-role.html
+		possibility to add specifics on time or time interval
+
+	external enumerations - http://blog.schema.org/2012/05/schemaorg-markup-for-external-lists.html
+
+	schema.org extensions -
+		https://lists.w3.org/Archives/Public/public-vocabs/2015Feb/0052.html
+		http://health-lifesci.schema.org (healthcare)
+		http://blog.schema.org/2016/02/gs1-milestone-first-schemaorg-external.html (products)
+		http://iot.schema.org/docs/iot-gettingstarted.html (IoT proposal)
+
+	proposal for reification - https://w3.org/wiki/images/b/b5/RolesinSchema.org.pdf
+	proposal for extensions - https://w3.org/wiki/WebSchemas/PropertyValuePairs
+	proposal for generic property-value pair - https://w3.org/wiki/WebSchemas/PropertyValuePairs
+
+
+	work process - https://github.com/schemaorg/schemaorg/issues
+
+
+	https://search.google.com/structured-data/testing-tool/
+	tool for annotating web page with schema.org - http://rdface.aksw.org/new/tinymce/examples/rdface.html
+	extractor of structured data from HTML - https://github.com/structured-data/linter
+	converter into JSON Schema - https://github.com/geraintluff/schema-org-gen 
+
+	integration with Web Components by Google
+		http://googlewebmastercentral.blogspot.ru/2015/03/easier-website-development-with-web.html
+		http://updates.html5rocks.com/2015/03/creating-semantic-sites-with-web-components-and-jsonld
+
+
+	tools - http://schema.rdfs.org/tools.html
+
+<brylevkirill@gmail.com>

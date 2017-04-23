@@ -1,0 +1,87 @@
+Relational Database to RDF
+	export of application relational data into RDF by mapping relational schema to RDF vocabulary in either of two ways:
+		- dynamic rewriting of SPARQL query into SQL query
+		- batch transform of relational data into RDF dump
+
+	http://antoniogarrote.wordpress.com/2011/01/10/translating-sparql-queries-into-sql-using-r2rml/
+
+	introduction to OWL QL, R2RML and OntoP by Kikot and Zakharyaschev (in russian) - http://youtube.com/watch?v=FLg3N1ltfSI
+
+	W3C R2RML - mapping language
+		http://w3.org/2001/sw/rdb2rdf/wiki/Main_Page
+		http://w3.org/TR/r2rml/
+
+		implementations of SPARQL to SQL translators
+			Morph
+				http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/technologies/315-morph-rdb
+
+				https://github.com/oeg-upm/morph-rdb
+				more optimized than D2R
+				works with PostgreSQL and MySQL
+
+				https://github.com/fpriyatna/morph-LDP - implementation of W3C Linked Data Platform REST API with support for write operations
+					http://2014.eswc-conferences.org/sites/default/files/eswc2014pd_submission_85.pdf
+
+			D2R
+				http://d2rq.org
+				read-only in original version
+
+				D2RQ++ - extension for update-enabled and bidirectional translation
+					tested against PostgreSQL and MySQL
+					https://github.com/vaibhavkhadilkar/D2RQ-Update
+					http://cs.utdallas.edu/semanticweb/D2RQ-Ext/d2rq-extension.html
+					related to R2D (below)
+
+				D2RQ-Update - extension for SPARQL/Update
+					tested against MySQL only
+					http://dbsw.cs.technion.ac.il/svn/d2rqUpdate
+					http://d2rqupdate.cs.technion.ac.il
+					http://d2rqupdate.cs.technion.ac.il/wpp179-eisenberg.pdf
+					http://d2rqupdate.cs.technion.ac.il/tutorial
+
+			OntoP
+				http://ontop.inf.unibz.it
+				http://ontop-obda.blogspot.it/2013/09/new-ontop-tutorial.html
+				http://ontop-obda.blogspot.it/2013/09/hybrid-rdf-graphs-or-hybrid-aboxes-as.html
+
+				no support for update queries
+
+				https://youtu.be/FLg3N1ltfSI?t=1h6m28s (in russian)
+
+			Ultrawrap
+				http://capsenta.com
+				http://capsenta.com/architecture/
+				commercial only
+
+			Quetzal-RDF from IBM Research
+				https://github.com/Quetzal-RDF/quetzal
+				support for PostgreSQL and Apache Spark
+				http://clds.sdsc.edu/sites/clds.sdsc.edu/files/2013-05-02_Bhatta_noSQLGraph.BRB_.ppt
+				https://cs.uwaterloo.ca/~gweddell/cs848/papers/Bornea.pdf
+
+			https://github.com/antoniogarrote/clj-r2rml
+
+	W3C RDF Direct Mapping - default mapping produced by R2RML
+		http://w3.org/TR/rdb-direct-mapping/
+
+	R2D - relational to RDF data translation (SQL to SPARQL)
+		http://cs.utdallas.edu/semanticweb/R2D/r2d.html
+
+	tutorial - http://slideshare.net/juansequeda/rdb2-rdf-tutorial-iswc2013
+	presentation - http://vimeo.com/66718408
+
+	sample mappings - https://github.com/LinkedBrainz/MusicBrainz-R2RML/tree/master/mappings
+
+	http://slideshare.net/nkons/transient-and-persistent-rdf-views-over-relational-databases-in-the-context-of-digital-repositories
+
+	RDF views based on Direct Mapping or R2RML in Oracle database - http://docs.oracle.com/cd/E16655_01/appdev.121/e17895/sem_relational_views.htm#RDFRM555
+
+	mapping editor by FluidOps - http://youtube.com/watch?v=PfP2wmWw9-o
+	SPARQL-to-SQL rewriters - http://aksw.org/Projects/SparqlMap.html + http://aksw.org/Projects/Sparqlify.html
+
+	OWL to relational database mapping
+		OWLDB - object relational mapping backend for OWL-API
+			http://owldb.sourceforge.net/
+			http://webont.org/owled/2009/papers/owled2009_submission_3.pdf
+
+<brylevkirill@gmail.com>

@@ -1,0 +1,208 @@
+Bitcoin
+	deep introduction - http://youtube.com/watch?v=KW_wYvZ1eZg
+
+	4 different things with the same name:
+	- Bitcoin network design
+	- Bitcoin network instance
+	- Bitcoin monetary token
+	- Bitcoin ecosystem/movement
+
+	3 types of money:
+	- commodities (precious metals)
+	- bearer bonds (bank notes)
+	- bearer shares (company stock)
+	# Bitcoin is the third one [https://xk.io/2013/08/30/factum-money.html]
+
+	functions of money:
+	- medium of exchange (divisibility, recognizability, transportability, fungibility, accessibility)
+	- unit of account (fungibility, stability, measurability)
+	- store of value (rarity, durability, securability, low carrying charges)
+	- standard of deferred payments
+	# Bitcoin has mostly the third one [https://medium.com/@jimmysong/why-bitcoin-transaction-capacity-doesnt-really-matter-fddcc0c9f021]
+
+	history - http://coinscrum.com/2015/10/29/what-satoshi-did/
+
+	smart contracts as a killer application - http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
+
+	how Bitcoin works
+		http://imponderablethings.com/2013/07/how-bitcoin-works-under-hood.html
+		http://igvita.com/2014/05/05/minimum-viable-block-chain/
+		https://github.com/aantonop/bitcoinbook
+		opinion by Nick Szabo (almost definite creator of Bitcoin) - http://unenumerated.blogspot.ru/2011/05/bitcoin-what-took-ye-so-long.html
+
+	selected papers - https://dropbox.com/sh/8g6vmvjkblgwu14/AACjd0Z1DSoptqKsMwz7EcgKa
+	research papers on crypto-currencies -
+		http://bitstein.org/blog/nick-szabo-the-computer-science-of-crypto-currency/
+		http://nakamotoinstitute.org/literature/
+
+	applications:
+	- digital assets - http://ledracapital.com/blog/2014/3/11/bitcoin-series-24-the-mega-master-blockchain-list
+	- micropayments (payment per article, per section, per hour, per video play, per archive access, per news alert, per incoming message)
+		https://21.co/mkt/
+		micropayment channels - https://bitcoinj.github.io/working-with-micropayments
+		http://saycheers.co
+		https://github.com/mikehearn/PayFile
+	- contracts - https://curiosity-driven.org/bitcoin-contracts
+	- multi-signature addresses (protection against key theft or lost, joint accounts, escrows) - http://bitcoinmagazine.com/11108/multisig-future-bitcoin/
+	- anonymity/privacy - http://zerocash-project.org/q_and_a
+		stealth address (anonymizing only destination) using deterministic addresses generation
+			http://bitcoinmagazine.com/8396/deterministic-wallets-advantages-flaw/
+			https://medium.com/@octskyward/cb2f81962c1b
+			http://sourceforge.net/p/bitcoin/mailman/message/31813471/
+		untraceable transactions (anonymizing source, destination and amount) using zero-knowledge proofs
+			http://zerocash-project.org
+			http://zerocoin.org
+		mixing transactions from multiple sources into single one
+			"coinjoin"
+			http://darkcoin.io
+			https://sharedcoin.com
+	- zero-knowledge proofs - https://bitcoincore.org/en/2016/02/26/zero-knowledge-contingent-payments-announcement/
+	- financial instruments, equity and smart property - http://counterparty.co
+	- oracle for auditing security of transactions - https://cryptocorp.co/technology.htm
+	- oracle for checking facts about the world in contracts - https://realitykeys.com
+	- decentralized marketplace / auction - http://openbazaar.org
+	- lending - https://btcjam.com
+	- investing / crowdfunding -
+		http://ariannasimpson.com/game-theory-assurance-contracts/
+		http://blog.vinumeris.com/2014/05/17/lighthouse/
+		http://swarmcorp.com
+	- crowdsourcing platform - http://startupboy.com/2014/03/09/the-bitcoin-model-for-crowdfunding/
+	- digital contracts - https://en.bitcoin.it/wiki/Contracts
+	- deal arbitration marketplace - https://bitrated.com
+	- gambling - http://chancecoin.com + http://qixcoin.com
+	- message signing - http://reddit.com/r/Bitcoin/comments/18qy88/bitcoin_message_signing_and_verification/
+	- identity - http://keybase.io
+	- authentication - https://github.com/bitid/bitid
+	- public records - http://factom.org 
+	- notarial service - http://virtual-notary.org + http://proofofexistence.com/about#technical + https://bitstamped.io
+	- end-to-end encrypted file storage - https://keybase.io/introducing-the-keybase-filesystem
+	- paper (physical) wallets - https://bitcoinpaperwallet.com
+	- hardware wallets - http://bitcointrezor.com
+	- smart meters - http://invirohub.com
+	- p2p exchanges - http://bitsquare.io
+
+	all kinds of applications on Bitcoin platform - http://ledracapital.com/blog/2014/3/11/bitcoin-series-24-the-mega-master-blockchain-list
+
+	zero-knowledge contingent payments as alternative to smart contracts - https://bitcoincore.org/en/2016/02/26/zero-knowledge-contingent-payments-announcement/
+
+	Bitcoin and other crypto-currencies (altcoins) - http://themisescircle.org/blog/2014/03/14/the-coming-demise-of-the-altcoins/
+
+	"Bitcoin 2.0 - Ideas and Applications" by Vitalik Buterin - https://youtube.com/watch?v=Fjhe0MVRHO4
+
+	Bitcoin 2.0 extension proposal for bridging with other crypto-currencies (sidechains) via two-way peg system -
+		http://coindesk.com/bitcoin-core-developers-bitcoin-side-chains/
+		http://bitcoinmagazine.com/12349/side-chains-challenges-potential/
+
+		sidechains and treechains
+			http://blog.greenaddress.it/2014/06/13/sidechains-treechains-the-tldr/
+			http://mail-archive.com/bitcoin-development@lists.sourceforge.net/msg04388.html
+
+	decentralized mining pool - http://p2pool.org
+
+	all main questions on Bitcoin - http://youtube.com/watch?v=JP9-lAYngi4 + https://youtube.com/watch?v=GykNHFNdFOg
+
+	positive reviews:
+		guide by Marc Andreessen - http://mobile.nytimes.com/blogs/dealbook/2014/01/21/why-bitcoin-matters/
+		http://cryptocrimson.com/2014/03/internet-pioneer-marc-andreessen-goes-all-in-on-bitcoin/
+		opinion of director of the US dollar mint - http://edmoy.com/the-currency-revolution-courtesy-of-bitcoin/
+		http://nakamotoinstitute.org/mempool/how-we-know-bitcoin-is-not-a-bubble/
+	negative reviews:
+		http://brokenlibrarian.org/bitcoin/
+		http://unqualified-reservations.blogspot.ca/2013/01/how-bitcoin-dies.html
+
+	statistics:
+		https://blog.coinbase.com/2015/07/15/bitcoin-trends-in-1h-2015/
+
+		rate of transactions - https://blockchain.info/charts/n-transactions?timespan=all&showDataPoints=false&daysAverageString=7&show_header=true&scale=0&address=
+		rate of venture investing - https://pbs.twimg.com/media/B2LToHsCAAAxjZO.png
+
+		more than 60,000 businesses that accept bitcoin - http://slideshare.net/CoinDesk/coindesk-state-of-bitcoin-q1-2014
+		http://officialblog.yelp.com/2014/04/now-on-yelp-businesses-that-accept-bitcoin.html
+		world map of services offered in Bitcoins - http://coinmap.org
+		http://lifeonbitcoin.com
+
+		https://coinmarketcap.com
+		http://bitinfocharts.com
+
+		Bitcoin network activity monitoring - https://bitiodine.net
+
+	state of adoption:
+		http://wired.com/2015/12/sec-approves-plan-to-issue-company-stock-via-the-bitcoin-blockchain/
+		http://coindesk.com/16-blockchain-tech-predictions-2016/
+		https://blog.coinbase.com/2015/11/20/introducing-the-shift-card/
+		http://techcrunch.com/2015/10/03/the-blockchain-might-be-the-next-disruptive-technology/
+		https://cbinsights.com/blog/financial-services-corporate-blockchain-investments/
+		https://recode.net/2015/09/15/nine-of-the-worlds-biggest-banks-form-blockchain-partnership/
+		https://wired.com/2015/06/overstock-will-issue-private-bond-powered-bitcoin-tech/
+		http://americasmarkets.usatoday.com/2015/05/19/nyse-launches-a-bitcoin-index/
+		http://nytimes.com/2015/04/30/business/dealbook/goldman-and-idg-put-50-million-to-work-in-a-bitcoin-company.html
+		position of US Cenral Bank - http://coindesk.com/federal-reserve-bitcoin-potential-boon-global-commerce/
+		position of California state - http://reuters.com/article/2014/06/29/us-usa-california-bitcoin-idUSKBN0F402T20140629
+
+	open problems:
+		http://vox.com/new-money/2016/11/21/13669662/bitcoin-ethereum-future-explained
+
+		https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7
+
+		https://github.com/ethereum/wiki/wiki/Problems
+		http://cryptocoinsnews.com/news/4-new-bitcoin-features-revealed-mike-hearn/2014/01/24
+
+		http://tezos.com/position_paper.pdf :
+		- the "hard fork" problem, the inability to dynamically innovate due to coordination issues
+		- cost and centralization issues raised by proof-of-work system
+		- the limited expressiveness of transaction language which has pushed smart contracts into separate projects
+		- other issues outlined by author of Tezos proposal - https://medium.com/@lmgoodman/dispelling-some-myths-about-bitcoin-from-a-bitcoin-fan-5b64f3850550
+
+		scalability
+			https://medium.com/@jimmysong/why-bitcoin-transaction-capacity-doesnt-really-matter-fddcc0c9f021
+			https://medium.com/@jimmysong/why-bitcoin-will-get-scaling-without-segwit-or-large-blocks-772799fab021
+			http://truthcoin.info/blog/blocksize-conversation/
+			http://gavinandresen.ninja/satoshi-roundtable-thoughts
+			possible solutions:
+				https://github.com/bitcoinclassic/documentation/blob/master/roadmap/roadmap2016.md
+				http://hackingdistributed.com/2015/10/14/bitcoin-ng/
+				http://cointelegraph.com/news/112917/this-is-how-factom-can-solve-blockchains-bloat-and-scalability-issues
+		resource waste
+			http://hackingdistributed.com/2017/02/23/green-blockchains/
+			https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51
+			https://blog.ethereum.org/2014/07/05/stake/
+			http://truthcoin.info/blog/pow-and-mining/
+		centralization
+			https://medium.com/@lmgoodman/decentralized-you-keep-using-that-word-but-i-dont-think-it-means-what-you-think-it-means-d5662771d257
+			http://hackingdistributed.com/2014/06/16/how-a-mining-monopoly-can-attack-bitcoin/
+			http://hackingdistributed.com/2014/06/13/time-for-a-hard-bitcoin-fork/
+			possible solutions:
+				https://bitcoinfoundation.org/2014/07/03/mining-decentralisation-the-low-hanging-fruit/
+				https://blog.ethereum.org/2014/06/19/mining/
+				http://hackingdistributed.com/2014/06/18/how-to-disincentivize-large-bitcoin-mining-pools/
+				https://medium.com/@lmgoodman/preventing-mining-pool-concentration-with-lamport-signatures-e7601c474343
+		selfish mining attack
+			http://bitcoinmagazine.com/7953/selfish-mining-a-25-attack-against-the-bitcoin-network/
+			http://hackingdistributed.com/2013/11/04/bitcoin-is-broken/
+		low transaction fees
+			http://coindesk.com/new-study-low-bitcoin-transaction-fees-unsustainable
+
+	consensus system is a way of creating a complex valuation equilibrium, and protecting it with:
+	- coordination problem
+	- grim trigger equilibrium
+	- bounded rationality
+	explained in details in "cryptoeconomic protocols in the context of wider society" - http://youtube.com/watch?v=S47iWiKKvLA
+
+	why is it hard to successfully fork Bitcoin and to create alternative coin with similar popularity:
+	- core team and community
+	- network effects of exposure
+	- moral pressure
+	- network effects of currency unit liquidity
+	- network effects of ecosystem
+	- resolution of bugs and attacks
+	- promise of upgrades
+
+
+
+
+	"Briefly, and non-technically, Bitcoin is the first example of a new form of life. It lives and breathes on the internet. It lives because it can pay people to keep it alive. It lives because it performs a useful service that people will pay it to perform. It lives because anyone, anywhere, can run a copy of its code. It lives because all the running copies are constantly talking to each other. It lives because if any one copy is corrupted it is discarded, quickly and without any fuss or muss. It lives because it is radically transparent: anyone can see its code and see exactly what it does."
+
+
+
+
+<brylevkirill@gmail.com>

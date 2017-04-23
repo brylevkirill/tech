@@ -1,0 +1,251 @@
+Ethereum
+	The internet democratises access to information; the blockchain democratises access to truth.
+	Blockchain satisfies people's need for trust.
+	Internet is to communications as Ethereum is to agreements (trust assumed vs trust enforced).
+	Ethereum is a way for people to make agreements and automate enforcement.
+
+	Bitcoin uses blockchain to implement basic clearing house contract without a central server.
+	Ethereum uses blockchain to implement arbitrary social contracts without a central server.
+
+	"Place and run code in decentralised singleton isolated machine; code can call into other people's code on the machine; all transactions with the machine are crypto-signed and archived; state fully deterministic."
+
+	https://coincenter.org/2016/03/what-is-ethereum/
+	https://medium.com/@ConsenSys/programmable-blockchains-in-context-ethereum-s-future-cd8451eb421e
+
+	"Ethereum: the World Computer" - https://youtube.com/watch?v=j23HnORQXvs
+
+	https://quora.com/Ethereum/What-is-Ethereum-in-laymans-term/answer/Stephan-Tual
+
+	introduction - http://youtube.com/watch?v=TDGq4aeevgY + https://youtube.com/watch?v=Clw-qf1sUZg + https://youtube.com/watch?v=fbEtivJIfIU
+
+	technical introduction - https://youtube.com/watch?v=66SaEDzlmP4
+
+
+	https://blog.ethereum.org/2015/04/05/bazaar-services/
+
+	introduction to smart contracts - http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
+	introduction to autonomous organizations - http://policyreview.info/articles/news/ethereum-decentralised-platform-might-displace-todays-institutions/318
+
+	Ethereum - social operating system - https://medium.com/p/4790bf5f7743
+	Ethereum - core part of web 3.0 - http://insightsintoamodernworld.blogspot.co.uk/2014/04/apps-what-web-30-looks-like.html
+
+
+	Ethereum like Bitcoin is based on concept of decentralized consensus over state of data at scale and irreversible atomic transactions on data stored on blockchain.
+	Ethereum unlike Bitcoin introduces contract composed of data and logic also stored on blockchain.
+	Ethereum contract code is executed by miners and handles incoming and outgoing transactions in an arbitrary way unlike Bitcoin.
+	Ethereum contract can be constructed to regulate and incentivize arbitrary (economic) activity on the Internet or in real-world by machines or humans.
+	Ethereum internal currency can be viewed as oil when Bitcoin can be viewed as gold.
+
+
+	* "Sign in with Facebook"... without the Facebook
+	* Rating systems and reputations, without being tied to a platform
+	* Your digital assets are yours, and you cannot be arbitrarily denied access
+	* Contracts, not intermediaries
+	* Protecting users' data against companies which operate on that data
+
+
+	"Crypto 2.0 - State of the Onion - Smart Contracts for Smart Nations" by Vitalik Buterin - https://youtube.com/watch?v=dlENbnbqkr8
+
+	https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology/
+
+
+	Ethereum is almost the highest earning crowdfunded project in history - http://en.wikipedia.org/wiki/List_of_highest_funded_crowdfunding_projects
+	Ethereum current price - http://coincap.io/#/coin/eth
+
+	project history - https://blog.ethereum.org/2016/02/09/cut-and-try-building-a-dream/
+
+	glossary - https://github.com/ethereum/wiki/wiki/Glossary
+
+
+
+	classification of contracts - http://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/
+	- smart contracts
+	- autonomous agents
+	- decentralized applications
+	- decentralized (autonomous) organizations
+
+
+	projects on Ethereum platform - http://dapps.ethercasts.com
+
+	classification of future Ethereum applications - https://medium.com/@gavofyork/so-ethereum-is-released-4291da46b770
+
+
+	applications:
+	- digital economic/legal contracts
+	- equity  [ aragon.one ]
+	- decentralized file storage  [ ipfs.io ]
+	- decentralized computing  [ golem.network ]
+	- governance  [ aragon.one ] [ boardroom.to ]
+	- smart property  [ slock.it ]
+	- crowdfunding  [ weifund.io ] [ makerdao.com ]
+	- financial instruments (such as derivatives, securities, funds, stocks, bonds)  [ projectactus.org ]
+	- escrow without mediator (insurance for purchase of good or service)
+	- decentralized exchange (conversion of cryptocurrencies/currencies)  [ bitsquare.io ] [ etherex.org ]
+	- decentralized marketplace / auction (goods, financial, any digitized assets)  [ openbazaar.org ]
+	- micropayments  [ raiden.network ]
+	- external data feeds  [ oraclize.it ] [ realitykeys.com ] [ smartcontract.com ]
+	- prediction markets  [ gnosis.pm ] [ augur.net ]
+	- accounting  [ balanc3.net ]
+	- in-app / in-game economies  [ highfidelity.io ]
+	- identity  [ uport.me ]
+	- reputation systems  [ uport.me ]
+	- social networks  [ akashaproject.github.io ]
+	- any web of trust architectures
+	- timestamping / notarial service  [ proofofexistence.com ]
+	- document revision control
+	- advertisement network  [ coincraft.io ]
+	- voting  [ bitvote.github.io ]
+	- universal data feeds  [ https://blog.ethereum.org/2014/03/28/schellingcoin-a-minimal-trust-universal-data-feed/ ]
+	- decentralized law (direct democracy)  [ bitcongress.org ]
+	- dispute resolution / arbitrage
+	- antispam protection for messaging (payments for message or account with calculated reputation)  [ https://moderncrypto.org/mail-archive/messaging/2014/000780.html ]
+	- music or digital content distribution (buyers become shareholders and spread content to increase its popularity)
+	- decentralized key-value storage (decentralized DNS, decentralized PKI, decenralized contact list, decentralized torrent tracker)  [ namecoin.info ]
+	- decentralized autonomous organizations
+
+
+	Ethereum used by IBM for Internet of Things - https://youtu.be/r5nmIf7J21A?t=31m50s + http://extremetech.com/extreme/214461-ibms-upcoming-blockchain-release-could-change-the-internet
+	Microsoft Azure Ethereum/Blockchain APIs - http://microsoft-news.com/microsoft-launches-ethereum-blockchain-as-a-service-now-on-azure-cloud-platform/ + http://youtube.com/watch?v=ExsTb0iglcs
+	presentation of use-cases by Canonical IoT - https://linkedin.com/pulse/ethereum-iot-smart-contracts-connected-devices-maarten-ectors
+
+	OverStock issues company's crypto-securities in addition to regular shares
+		http://wired.com/2016/12/overstock-com-issues-stock-via-bitcoin-blockchain/
+		http://wired.com/2015/12/sec-approves-plan-to-issue-company-stock-via-the-bitcoin-blockchain/
+		https://o.info/index.php/How_to_issue_a_cryptosecurity
+
+
+	developer resources:
+		https://dappsforbeginners.wordpress.com
+
+		sample contracts - https://github.com/jorisbontje/cll-sim/tree/master/examples
+		TicTacToe contract - https://github.com/dennismckinnon/Ethereum-TicTacToe
+
+		sample decentralized autonomous organization contract - http://youtube.com/watch?v=Q_gxDytSvuY + https://github.com/jorisbontje/cll-sim/blob/master/examples/egalitarian-dao.cll
+		sample marriage contract - https://youtube.com/watch?v=zRpziAtk61g + https://github.com/jorisbontje/cll-sim/blob/master/examples/i_want_half.cll
+
+		sample hedging contract - http://blog.ethereum.org/2014/03/28/schellingcoin-a-minimal-trust-universal-data-feed/
+
+		health insurance contract - https://omarmetwally.quora.com/Democratizing-healthcare-through-decentralized-consensus
+
+		visual programming of contracts plus samples - http://etherscripter.com
+		contract editor and registry of samples - http://mintchalk.com
+
+		sample ecosystem of contracts:
+		"One might hold some shares of a decentralized autonomous organization (contract A), where the shares are held on a decentralized market (contract B) in a multisignature account (contract C) for added security. The co-signer of said multisig account is paranoid about quantum computing, so he uses custom cryptography (contract D) based on verifying Lamport signatures for authentication. The organization would then store some of its funds in a USD-pegged asset using a financial derivatives market (contract F) using a combination of centralized and decentralized data feeds (contracts G, H, I), and internally uses a name registration system (contract J) to store all of the functions that it calls."
+
+		contract programming guide - http://blog.ethereum.org/2014/04/10/pyethereum-and-serpent-programming-guide-2/
+
+		framework for building decentralized applications - https://github.com/project-douglas/eris
+		package manager - https://tao.epm.io/entries/2014/introducing-ethereum-package-manager.html
+		MVC framework - https://tao.epm.io/entries/2014/c3d-the-concept.html
+		legal markdown - https://lmd.io
+
+
+	"Bitcoin 2.0 - Ideas and Applications" by Vitalik Buterin - https://youtube.com/watch?v=Fjhe0MVRHO4
+
+	big problems in cryptocurrencies
+		https://github.com/ethereum/wiki/wiki/Problems
+		https://youtube.com/watch?v=Ftl4-danbVA
+		http://vitalik.ca/files/problems.pdf
+
+	problems with Ethereum
+		https://medium.com/@tuurdemeester/why-im-short-ethereum-and-long-bitcoin-aee5b1c198fd
+		https://blog.blockstack.org/the-road-ahead-for-ethereum-b5b090bcd1a
+		http://gavintech.blogspot.ru/2014/06/bit-thereum.html
+		http://labs.humint.is/spinjar-bitcoin-vs-ethereum-a-test-case/
+
+
+	security
+		https://medium.com/@VitalikButerin/why-cryptoeconomics-and-x-risk-researchers-should-listen-to-each-other-more-a2db72b3e86b
+		https://blog.ethereum.org/2016/06/19/thinking-smart-contract-security/
+
+	proof-of-stake mining
+		https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51
+		https://youtube.com/watch?v=bSdwqa3Yl0Q
+		https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ
+		https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/
+		https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/
+		https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-4-3855638b5f0e
+
+	scaling
+		https://github.com/ethereum/wiki/wiki/Sharding-FAQ
+
+	governance
+		https://medium.com/@VitalikButerin/why-cryptoeconomics-and-x-risk-researchers-should-listen-to-each-other-more-a2db72b3e86b
+
+	formal verification of contracts
+		Ethereum contracts using dependent types - http://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf
+		"Formal Verification of Deed Contract in Ethereum Name Service" - https://yoichihirai.com/deed.pdf
+
+
+	alternatives
+		Tezos - https://dropbox.com/s/8o7tr55mm3iz357/Tezos.txt
+
+		https://petertodd.org/2016/state-machine-consensus-building-blocks
+
+		zero-knowledge contingent payments as alternative to smart contracts - https://bitcoincore.org/en/2016/02/26/zero-knowledge-contingent-payments-announcement/
+
+		off-chain contracts - https://pbs.twimg.com/media/Cle3JTMUsAEtneY.jpg
+
+
+	Decentralized Autonomous Organizations
+		http://blog.ethereum.org/2014/02/24/daos-are-not-scary-part-1-self-enforcing-contracts-and-factum-law/
+		http://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/
+		http://blog.ethereum.org/2014/02/08/cryptographic-code-obfuscation-decentralized-autonomous-organizations-are-about-to-take-a-huge-leap-forward/
+
+		sample organizations:
+		- contract for a non-profit organization that contains a currency balance, with a rule that the funds can be withdrawn or spent if 67% of the organization's members agree on the amount and destination to send
+		- allowing a maximum of 1% per day to be withdrawn with only 33% consent, or making the organization a for-profit company whose shares are tradable and whose shareholders automatically receive dividends
+		- an obfuscated contract can contain a private key to an address inside the Bitcoin network, and use that private key to sign Bitcoin transactions when the contract's conditions are met
+		- an obfuscated contract can hold the login details to the website of a bank account, and have the contract carry out an entire HTTPS session with the bank, logging in and then authorizing certain transfers (or any other operation on resource on the web)
+		- blockchain based voting system - http://bitcongress.org
+
+
+		DAO Democracy by Ralph Merkle - http://merkle.com/papers/DAOdemocracyDraft.pdf
+		https://blog.ethereum.org/2014/08/21/introduction-futarchy/
+		real governance by the people instead of democracy - http://amazon.com/Binding-Chaos-collaboration-global-scale/dp/1489527680
+
+
+		Ethereum Foundation plans to become decentralized autonomous organization running on Ethereum
+		Bitcoin Association plans to become DAO running on Ethereum - http://bitcoinassociation.org
+		Bitcoin Foundation is called for transition into DAO - http://cryptocoinsnews.com/news/oliver-janssens-creates-100000-bounty-software-will-replace-bitcoin-foundation/2014/05/17
+
+		implementation of Bitcoin Foundation DAO on Ethereum -
+			http://projectdouglas.org
+			http://prestonbyrne.com/2014/06/02/project-d/
+			https://eris.projectdouglas.org
+			https://youtube.com/watch?v=JraYNmE8Ap0
+
+		problems:
+			https://medium.com/@arthurb/thoughts-on-the-dao-89f07ebcad9d
+			http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/
+
+
+
+
+	"Cryptography is truly special in the 21st century because cryptography is one of the very few fields where adversarial conflict continues to heavily favor the defender. Castles are far easier to destroy than build, islands are defendable but can still be attacked, but an average person’s ECC keys are secure enough to resist even state-level actors. Cypherpunk philosophy is fundamentally about leveraging this precious asymmetry to create a world that better preserves the autonomy of the individual, and cryptoeconomics is to some extent an extension of that, except this time protecting the safety and liveness of complex systems of coordination and collaboration, rather than simply the integrity and confidentiality of private messages."
+
+	"Even if an adversary had access to unlimited hashing power, and came out with a 51% attack of any major blockchain that reverted even the last month of history, convincing the community that this chain is legitimate is much harder than just outrunning the main chain’s hashpower. They would need to subvert block explorers, every trusted member in the community, the New York Times, archive.org, and many other sources on the internet; all in all, convincing the world that the new attack chain is the one that came first in the information technology-dense 21st century is about as hard as convincing the world that the US moon landings never happened. These social considerations are what ultimately protect any blockchain in the long term."
+
+	"3 E's Sybil Resistance 1. Entry Cost 2. Existence Cost 3. Exit Penalty. Bitcoin has no E3 so maximizes E2. Bitcoin emphasizes ASIC ownership (access to supply chain) and burning electricity (access to cheap power)."
+
+
+	"One obvious application of Ethereum is the decentralization of the so called ‘sharing economy’. Where centralized applications such as airbnb, blablacar or taskrabbit currently have a middleman, under a p2p model one would have to bring true value, not just ‘take a commission’, in order to be commercially successful. I think this will have a profound impact and disrupt the current ‘get eyeballs, figure the rest later’ silicon valley ‘strategy’.
+	Shared reputation systems is another one. The current centralized model of the web have my reputation in ebay for example ‘locked’ to ebay. I cannot use it anywhere else. On Ethereum, one can envisage a multitude of reputation systems, where some would be shared by multiple dapps: my decentralized ebay reputation could go towards my decentralized airbnb reputation, for example.
+	Another use case I’m quite keen on to see develop is the incentivization of certain arbitrary behaviours, aka rewarding users for taking actions both in the real and virtual world. This can be achieved by issuing metacoins build on ethereum."
+
+	"Our institutions still take for granted that we live in a world of paper. We formalize our relationships with written contracts, written laws, and forms designed for paper...
+	Smart contracts reduce mental and computational transaction costs imposed by either principals, third parties, or their tools.
+	The contractual phases of search, negotiation, commitment, performance, and adjudication constitute the realm of smart contracts."
+
+
+
+
+	https://techcrunch.com/2017/01/08/the-future-is-a-decentralized-internet/
+		"In addition to rewarding founders, these app-tokens allow participants in networks to actually own a piece of the network. This network equity ownership is unprecedented. Consider how many networks the modern western internet user is a part of — Facebook, LinkedIn, Twitter, Uber, Airbnb, eBay, Etsy, Tumblr — the list goes on. In each of these cases, the network’s value is created by the users, but the value each individual user generates goes to the owners of the network. In this new blockchain-based model, that value is actually given back to the users of the network, proportional to their contribution."
+		"What this means is that what ultimately disrupts many of the major web services created in the last decade could be peer-to-peer protocols, not companies. This would be similar to the effect that the torrent protocol had on media companies, but on a much larger scale. The result would be twitter the protocol without Twitter the company, facebook without Facebook, uber without Uber. And as an investor, for the first time, it is possible to buy a portion of these networks, which will power the future infrastructure of the internet."
+
+
+
+
+<brylevkirill@gmail.com>

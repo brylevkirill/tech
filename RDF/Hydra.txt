@@ -1,0 +1,36 @@
+Hydra (Hypermedia-Driven Web APIs)
+	http://hydra-cg.com
+	https://github.com/HydraCG/Specifications
+
+	introduction
+		http://youtube.com/watch?v=fJCtaNRxg9M
+
+		http://slideshare.net/lanthaler/the-web-30-is-just-around-the-corner-be-prepared
+		http://slideshare.net/lanthaler/a-deep-dive-into-jsonld-and-hydra
+		http://slideshare.net/lanthaler/stop-reinventing-the-wheel-use-linked-data-to-build-better-ap-is
+		https://youtube.com/watch?v=lKIapoimPRo
+		http://slideshare.net/lanthaler/building-next-generation-web-ap-is-with-jsonld-and-hydra + http://youtube.com/watch?v=tRTD2W4W8G4
+
+	http://markus-lanthaler.com/research/creating-3rd-generation-web-apis-with-hydra.pdf
+	http://markus-lanthaler.com/research/model-your-application-domain-not-your-json-structures.pdf
+
+	http://w3.org/community/blog/2013/06/17/call-for-participation-in-hydra-community-group/
+
+	* completely machine-processable documentation at unprecedented granularity
+	* collections (paging)
+	* templated links
+
+	contains Linked Data Fragments API as part of specification - https://dropbox.com/s/33r12d8khfia2p2/Linked%20Data%20Fragments.txt
+
+	integration into schema.org
+		http://hydra-cg.com/spec/latest/schema.org/
+		http://lists.w3.org/Archives/Public/public-vocabs/2013Jun/0044.html
+
+	PHP framework - https://github.com/dunglas/api-platform
+	PHP library - https://github.com/lanthaler/HydraBundle [sample - https://github.com/lanthaler/sfHydraDemoApp/blob/master/src/ML/DemoBundle/Entity/Issue.php]
+	Java library - https://github.com/dschulten/hydra-java
+	Python library (object linked data mapper) - https://github.com/oldm/OldMan
+	JavaScript library - https://github.com/bergos/hydra-middleware
+
+
+<brylevkirill@gmail.com>

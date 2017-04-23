@@ -1,0 +1,23 @@
+Tezos
+	"Tezos attempts to represent a blockchain protocol in the most general way possible while remaining as efficient as a native protocol"
+
+	 - modular, designed to enable drop in replacement of most components without hard fork
+	 - has a built in governance mechanism
+	 - uses a functional scripting language
+
+	"Tezos solves a tragedy of the commons problem by providing a way to facilitate protocol dynamism through on-chain governance mechanism"
+
+
+	https://quora.com/How-is-Tezos-different-from-Ethereum/answer/Arthur-Breitman-1
+
+	http://altoros.com/blog/?p=17455
+
+	https://medium.com/@kathleenbreit/app-coins-and-tezos-6421493fb1d8
+	https://medium.com/@lmgoodman/dispelling-some-myths-about-bitcoin-from-a-bitcoin-fan-5b64f3850550
+	https://medium.com/@tezos/why-governance-matters-9c6458044037
+	https://medium.com/@lmgoodman/decentralized-you-keep-using-that-word-but-i-dont-think-it-means-what-you-think-it-means-d5662771d257
+
+	https://youtube.com/watch?v=5-hnJjORLy0
+	https://youtube.com/watch?v=B4a0cjrz5_U
+	https://youtube.com/watch?v=pNerM72f0Pk
+	https://youtube.com/watch?v=4oG4Ead74xA (Michelson language)
