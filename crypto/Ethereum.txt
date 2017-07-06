@@ -4,10 +4,18 @@ Ethereum
 	Internet is to communications as Ethereum is to agreements (trust assumed vs trust enforced).
 	Ethereum is a way for people to make agreements and automate enforcement.
 
+
+	https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
+
+	"Trillions of dollars of value have been created by using Internet to improve the way people make and perform deals with each other."
+	"Smart contracts: intentionally apply tech to enable more kinds of deals between more far-flung and differently lawed/cultured people." [https://pbs.twimg.com/media/DDRjhDPXoAAwP5C.jpg:large]
+
+
 	Bitcoin uses blockchain to implement basic clearing house contract without a central server.
 	Ethereum uses blockchain to implement arbitrary social contracts without a central server.
 
 	"Place and run code in decentralised singleton isolated machine; code can call into other people's code on the machine; all transactions with the machine are crypto-signed and archived; state fully deterministic."
+
 
 	https://coincenter.org/2016/03/what-is-ethereum/
 	https://medium.com/@ConsenSys/programmable-blockchains-in-context-ethereum-s-future-cd8451eb421e
@@ -71,27 +79,30 @@ Ethereum
 
 
 	applications:
-	- digital economic/legal contracts
-	- equity  [ aragon.one ]
-	- decentralized file storage  [ ipfs.io ]
+	- decentralized internet  [ blockstack.org ] [ ipfs.io ]
+	- decentralized file storage  [ storj.io ]
 	- decentralized computing  [ golem.network ]
+	- decentralized private networking  [ mysterium.network ]
 	- governance  [ aragon.one ] [ boardroom.to ]
+	- digital  [ qtum.org ]
 	- smart property  [ slock.it ]
 	- crowdfunding  [ weifund.io ] [ makerdao.com ]
+	- equity  [ aragon.one ]
 	- financial instruments (such as derivatives, securities, funds, stocks, bonds)  [ projectactus.org ]
 	- escrow without mediator (insurance for purchase of good or service)
 	- decentralized exchange (conversion of cryptocurrencies/currencies)  [ bitsquare.io ] [ etherex.org ]
 	- decentralized marketplace / auction (goods, financial, any digitized assets)  [ openbazaar.org ]
 	- micropayments  [ raiden.network ]
-	- external data feeds  [ oraclize.it ] [ realitykeys.com ] [ smartcontract.com ]
+	- external data feeds  [ town-crier.org ] [ oraclize.it ] [ realitykeys.com ] [ smartcontract.com ]
 	- prediction markets  [ gnosis.pm ] [ augur.net ]
 	- accounting  [ balanc3.net ]
+	- asset tokenisation  [ dgx.io ]
 	- in-app / in-game economies  [ highfidelity.io ]
 	- identity  [ uport.me ]
 	- reputation systems  [ uport.me ]
-	- social networks  [ akashaproject.github.io ]
+	- social networks  [ steem.io ] [ akasha.world ]
 	- any web of trust architectures
-	- timestamping / notarial service  [ proofofexistence.com ]
+	- timestamping / notarial service  [ proofofexistence.com ] [ po.et ]
 	- document revision control
 	- advertisement network  [ coincraft.io ]
 	- voting  [ bitvote.github.io ]
@@ -149,6 +160,7 @@ Ethereum
 		http://vitalik.ca/files/problems.pdf
 
 	problems with Ethereum
+		http://truthcoin.info/blog/contracts-oracles-sidechains/
 		https://medium.com/@tuurdemeester/why-im-short-ethereum-and-long-bitcoin-aee5b1c198fd
 		https://blog.blockstack.org/the-road-ahead-for-ethereum-b5b090bcd1a
 		http://gavintech.blogspot.ru/2014/06/bit-thereum.html
@@ -160,6 +172,8 @@ Ethereum
 		https://blog.ethereum.org/2016/06/19/thinking-smart-contract-security/
 
 	proof-of-stake mining
+		https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
+
 		https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51
 		https://youtube.com/watch?v=bSdwqa3Yl0Q
 		https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ

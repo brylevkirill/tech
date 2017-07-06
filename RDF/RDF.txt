@@ -37,6 +37,12 @@
 	* RDF - framework for description of data related to resource in a way which doesn’t require prior knowledge of the vocabularies being used
 	* Linked Data - powerful distributed open graph data model based on RDF to integrate data stored in various databases and to integrate applications around data
 
+	Data (observing and recording, RDF) -> Information (organizing, RDFS/OWL) -> Knowledge (understanding, semantics) -> Wisdom (predicting)
+
+
+	"What happened to the Semantic Web?" - https://slideshare.net/pmika/what-happened-to-the-semantic-web
+
+
 	introduction into modern RDF - http://youtube.com/watch?v=vioCbTo3C-4
 
 	"Key Things You Need to Know About RDF and Why They Are Important" - http://dbooth.org/2014/key/key-slides.pdf
@@ -49,6 +55,7 @@
 
 	http://habrahabr.ru/company/itis/blog/258405/  (course in russian)
 
+
 	http://slid.es/mhgrove/semantic-graphs-are-for-everyone
 	http://mkbergman.com/1626/seven-arguments-for-semantic-technologies/
 	http://slideshare.net/lanthaler/stop-reinventing-the-wheel-use-linked-data-to-build-better-ap-is
@@ -57,7 +64,6 @@
 	https://dropbox.com/s/01ii0nnzeomnepa/Linked%20Data%20Platform%20as%20a%20novel%20approach%20for%20Enterprise%20Application%20Integration.pdf
 	https://dropbox.com/s/fi4zq9vjc2bhgu0/Linked%20Data%20in%20the%20Enterprise.pdf
 
-	Data (observing and recording, RDF) -> Information (organizing, RDFS/OWL) -> Knowledge (understanding, semantics) -> Wisdom (predicting)
 
 	interesting selected publications - https://dropbox.com/sh/c427b94xex62a40/AABii9_MRHrCZPGJ_Adx_b3Ma
 
@@ -1009,9 +1015,12 @@ permit statements about statements, into second order predicate calculus.
 
 	[NoSQL DBMS-backed stores]
 
-	* Tinkerpop/BlueprintsSail
+	* Apache Tinkerpop / BlueprintsSail
 		https://github.com/tinkerpop/blueprints/wiki/Sail-Ouplementation
 		any graph database with support for Blueprints API
+
+		- Microsoft Azure Cosmos DB
+			https://docs.microsoft.com/en-us/azure/cosmos-db/gremlin-support
 
 		- Neo4J
 			http://neo4j.org/develop/linked_data

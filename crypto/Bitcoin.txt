@@ -20,6 +20,10 @@ Bitcoin
 	- standard of deferred payments
 	# Bitcoin has mostly the third one [https://medium.com/@jimmysong/why-bitcoin-transaction-capacity-doesnt-really-matter-fddcc0c9f021]
 
+
+	https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
+
+
 	history - http://coinscrum.com/2015/10/29/what-satoshi-did/
 
 	smart contracts as a killer application - http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
@@ -162,11 +166,17 @@ Bitcoin
 				https://github.com/bitcoinclassic/documentation/blob/master/roadmap/roadmap2016.md
 				http://hackingdistributed.com/2015/10/14/bitcoin-ng/
 				http://cointelegraph.com/news/112917/this-is-how-factom-can-solve-blockchains-bloat-and-scalability-issues
+
 		resource waste
+			https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
+			http://truthcoin.info/blog/pow-cheapest/
+			http://truthcoin.info/blog/pow-and-mining/
+
 			http://hackingdistributed.com/2017/02/23/green-blockchains/
 			https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51
 			https://blog.ethereum.org/2014/07/05/stake/
 			http://truthcoin.info/blog/pow-and-mining/
+
 		centralization
 			https://medium.com/@lmgoodman/decentralized-you-keep-using-that-word-but-i-dont-think-it-means-what-you-think-it-means-d5662771d257
 			http://hackingdistributed.com/2014/06/16/how-a-mining-monopoly-can-attack-bitcoin/
@@ -176,9 +186,11 @@ Bitcoin
 				https://blog.ethereum.org/2014/06/19/mining/
 				http://hackingdistributed.com/2014/06/18/how-to-disincentivize-large-bitcoin-mining-pools/
 				https://medium.com/@lmgoodman/preventing-mining-pool-concentration-with-lamport-signatures-e7601c474343
+
 		selfish mining attack
 			http://bitcoinmagazine.com/7953/selfish-mining-a-25-attack-against-the-bitcoin-network/
 			http://hackingdistributed.com/2013/11/04/bitcoin-is-broken/
+
 		low transaction fees
 			http://coindesk.com/new-study-low-bitcoin-transaction-fees-unsustainable
 
@@ -200,7 +212,11 @@ Bitcoin
 
 
 
-	"Briefly, and non-technically, Bitcoin is the first example of a new form of life. It lives and breathes on the internet. It lives because it can pay people to keep it alive. It lives because it performs a useful service that people will pay it to perform. It lives because anyone, anywhere, can run a copy of its code. It lives because all the running copies are constantly talking to each other. It lives because if any one copy is corrupted it is discarded, quickly and without any fuss or muss. It lives because it is radically transparent: anyone can see its code and see exactly what it does."
+	(Nick Szabo) "A wide variety of innovations reduce our vulnerability to fellow participants, intermediaries, and outsiders, and thereby lower our need to spend our scarce cognitive capacities worrying about how an increasingly large number of increasingly diverse people might behave. Another class of improvements motivates the accurate collection and transmission of valuable information between an increasing number and variety of participants. Yet other advances enable a wider number or variety of mutually beneficial participants can discover each other.  All these kinds of innovations have over the course of human prehistory and history improved social scalability, sometimes dramatically so, making our modern civilization with its vast global population feasible. Modern information technology, especially by making use of the historically recent discoveries of computer science, can often discover many more mutually beneficial matches, can improve motivations for information quality, and can reduce the need for trust within certain kinds of institutional transactions, with respect to an increasingly large number and variety of people, thereby further increasing social scalability in some very important ways."
+
+	(Nick Szabo) "eBay, Uber, AirBnB, and online financial exchanges have brought social scalability via often great improvements in commercial matchmaking: searching for, finding, bringing together, and facilitating the negotiation of mutually beneficial commercial or retail deals.  These or related services also facilitate performances such as payment and shipping, as well as verification that other obligations undertaken by strangers in these deals have been performed and communication about the quality of such performances (as with “star rating” systems, Yelp reviews, and the like). Whereas the main social scalability benefit of the Internet has been matchmaking, the predominant direct social scalability benefit of blockchains is trust minimization. A blockchain can reduce vulnerability by locking in the integrity of some important performances (such as the creation and payment of money) and some important information flows, and in the future may reduce the vulnerability of the integrity of some important matchmaking functions. Trust in the secret and arbitrarily mutable activities of a private computation can be replaced by verifiable confidence in the behavior of a generally immutable public computation."
+
+	() "Briefly, and non-technically, Bitcoin is the first example of a new form of life. It lives and breathes on the internet. It lives because it can pay people to keep it alive. It lives because it performs a useful service that people will pay it to perform. It lives because anyone, anywhere, can run a copy of its code. It lives because all the running copies are constantly talking to each other. It lives because if any one copy is corrupted it is discarded, quickly and without any fuss or muss. It lives because it is radically transparent: anyone can see its code and see exactly what it does."
 
 
 

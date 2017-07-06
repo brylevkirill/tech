@@ -58,7 +58,7 @@ OWL
 		Python
 			RDFLib with InfixOWL module for OWL Manchester Syntax support
 				https://github.com/RDFLib/rdflib/blob/master/rdflib/extras/infixowl.py
-				http://python-dlp.googlecode.com/files/infixOwl.pdf
+				http://ceur-ws.org/Vol-432/owled2008eu_submission_19.pdf
 
 	several profiles for reasoning over ontologies - http://w3.org/TR/owl2-profiles/
 		RDFS (simplest)
