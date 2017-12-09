@@ -22,3 +22,10 @@ Tezos
 	https://youtube.com/watch?v=B4a0cjrz5_U
 	https://youtube.com/watch?v=pNerM72f0Pk
 	https://youtube.com/watch?v=4oG4Ead74xA (Michelson language)
+
+
+	critics:
+	- https://twitter.com/VitalikButerin/status/884560133015121920
+	- https://twitter.com/VladZamfir/status/884548496795324417
+	- https://medium.com/conspiratus/thoughts-on-tezos-841c91072b0a
+	- https://youtube.com/watch?v=gsY5wXj4Xm8 (interview with Arthur Breitman)

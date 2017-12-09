@@ -18,21 +18,18 @@
 
 [technologies in RDF stack (overviews)]
 
-  - https://dropbox.com/s/n2idbdk8efn96r8/schema.org.txt
-  - https://dropbox.com/s/53e4hzv7e5hrd9c/JSON-LD.txt
-  - https://dropbox.com/s/z89eswv4rgkjrlp/OWL.txt
-  - https://dropbox.com/s/ngfnmyxczqigedn/SPARQL.txt
-  - https://dropbox.com/s/ga5j519g7bthe9i/LDP.txt
-  - https://dropbox.com/s/k6qkkklxa25l682/R2RML.txt
-  - https://dropbox.com/s/rafruw54bu9u32z/Hydra.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/JSON-LD.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/SPARQL.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/LDP.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/R2RML.txt
+  - https://github.com/brylevkirill/tech/blob/master/RDF/Hydra.txt
 
 
 
 
 [introduction to RDF]
-
-	introduction in russian - https://dropbox.com/s/72yzslwh5fmefvp/why%20RDF.txt
-
 
 	* RDF - framework for description of data related to resource in a way which doesn’t require prior knowledge of the vocabularies being used
 	* Linked Data - powerful distributed open graph data model based on RDF to integrate data stored in various databases and to integrate applications around data
@@ -90,25 +87,25 @@
 	[types]
 		Schema.org (collection of type schemas) -
 			http://schema.org
-			https://dropbox.com/s/n2idbdk8efn96r8/schema.org.txt
+			https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt
 			https://dropbox.com/s/pefw66f8vjft3p5/schema.org%20intro.txt
 	[serializations]
-		JSON-LD (JSON serialization) - http://json-ld.org + https://dropbox.com/s/53e4hzv7e5hrd9c/JSON-LD.txt
+		JSON-LD (JSON serialization) - http://json-ld.org + https://github.com/brylevkirill/tech/blob/master/RDF/JSON-LD.txt
 		Turtle (most comprehensible serialization) - http://w3.org/TR/2013/CR-turtle-20130219/
 		RDFa (serialization into HTML) - http://rdfa.info
 		HDT (binary serialization) - http://rdfhdt.org/what-is-hdt/
 		RDF Patch (graph delta serialization) - http://bertails.org/2014/09/20/why-ldpatch/ + http://w3.org/TR/ldpatch/ + http://afs.github.io/rdf-patch/
 	[API]
-		Hydra (REST API definition) - http://hydra-cg.com/spec/latest/core/ + https://dropbox.com/s/rafruw54bu9u32z/Hydra.txt
+		Hydra (REST API definition) - http://hydra-cg.com/spec/latest/core/ + https://github.com/brylevkirill/tech/blob/master/RDF/Hydra.txt
 		Linked Data Fragments (SPARQL to REST) - http://linkeddatafragments.org + https://dropbox.com/s/33r12d8khfia2p2/Linked%20Data%20Fragments.txt
-		Linked Data Platform (REST API) - https://dropbox.com/s/ga5j519g7bthe9i/LDP.txt
+		Linked Data Platform (REST API) - https://github.com/brylevkirill/tech/blob/master/RDF/LDP.txt
 		RDF Interfaces (programming language API) - http://w3.org/TR/2012/NOTE-rdf-interfaces-20120705/
 	[query]
-		SPARQL (query language) - http://w3.org/TR/rdf-sparql-query/ + https://dropbox.com/s/ngfnmyxczqigedn/SPARQL.txt
+		SPARQL (query language) - http://w3.org/TR/rdf-sparql-query/ + https://github.com/brylevkirill/tech/blob/master/RDF/SPARQL.txt
 		LDPath (simple query language) - http://wiki.apache.org/marmotta/LDPath
 	[schema]
 		RDF Schema (basic schema definition) - http://w3.org/TR/rdf-schema/
-		OWL (schema definition) - http://w3.org/TR/owl-features/ + https://dropbox.com/s/z89eswv4rgkjrlp/OWL.txt
+		OWL (schema definition) - http://w3.org/TR/owl-features/ + https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt
 	[validation]
 		Shapes Constraint Language - http://w3c.github.io/data-shapes/shacl/ + http://w3c.github.io/data-shapes/data-shapes-primer/
 	[rules]
@@ -119,7 +116,7 @@
 		RDB2RDF/R2RML (relational to RDF) -
 			http://w3.org/2001/sw/rdb2rdf/wiki/Main_Page
 			http://w3.org/TR/r2rml/
-			https://dropbox.com/s/k6qkkklxa25l682/R2RML.txt
+			https://github.com/brylevkirill/tech/blob/master/RDF/R2RML.txt
 	[security]
 		Credentials (identity, authentication, authorization) -
 			http://opencreds.org
@@ -135,7 +132,7 @@
 [RDF description of RESTful API]
 
 	Hydra -
-		https://dropbox.com/s/rafruw54bu9u32z/Hydra.txt
+		https://github.com/brylevkirill/tech/blob/master/RDF/Hydra.txt
 		http://hydra-cg.com/spec/latest/core/
 		http://markus-lanthaler.com/hydra/
 		http://markus-lanthaler.com/research/creating-3rd-generation-web-apis-with-hydra.pdf 
@@ -266,7 +263,7 @@
 		schemas for multiple knowledge domains understandable by web seach engines and many others
 		currently used on 15% of all pages on the web after 2 years of adoption
 
-		https://dropbox.com/s/n2idbdk8efn96r8/schema.org.txt
+		https://github.com/brylevkirill/tech/blob/master/RDF/schema.org.txt
 		technical overview - http://w3.org/2013/04/odw/odw13_submission_53.pdf
 		current state of adoption - http://videolectures.net/iswc2013_guha_tunnel/
 
@@ -293,7 +290,7 @@
 
 	Google Knowledge Graph (570m items, 3.5b links, 1500 item types, 35k link types) and Freebase (40m items, 2b statements, 60000 properties)
 		http://technologyreview.com/news/523846/how-a-database-of-the-worlds-knowledge-shapes-googles-future/
- 		Freebase as base - https://developers.google.com/freebase/ + https://dropbox.com/s/rn9z871cqf25fcm/Freebase.txt + http://basekb.com
+ 		Freebase as base - https://developers.google.com/freebase/ + https://github.com/brylevkirill/tech/blob/master/RDF/Freebase.txt + http://basekb.com
 	Facebook Entity Graph (1b persons and other entities, 100b+ statements)
 		public RDF API
 			http://semantic-web-journal.net/content/facebook-linked-data-graph-api
@@ -360,7 +357,7 @@
 	* Linked Data platforms
 		https://dropbox.com/s/01ii0nnzeomnepa/Linked%20Data%20Platform%20as%20a%20novel%20approach%20for%20Enterprise%20Application%20Integration.pdf
 
-		W3C Linked Data Platform - https://dropbox.com/s/ga5j519g7bthe9i/LDP.txt
+		W3C Linked Data Platform - https://github.com/brylevkirill/tech/blob/master/RDF/LDP.txt
 		Graphity LDP - http://fusepool.eu/more/links/projects/graphity + https://github.com/Graphity/graphity-ldp
 		http://blog.ldodds.com/2013/06/15/building-the-new-ordnance-survey-linked-data-platform/
 		https://code.google.com/p/lmf/
@@ -388,7 +385,7 @@
 		http://antoniogarrote.wordpress.com/2011/01/10/translating-sparql-queries-into-sql-using-r2rml/
 		sample mappings - https://github.com/LinkedBrainz/MusicBrainz-R2RML/tree/master/mappings
 
-		https://dropbox.com/s/k6qkkklxa25l682/R2RML.txt
+		https://github.com/brylevkirill/tech/blob/master/RDF/R2RML.txt
 
 	* validation
 		http://throwww.com/a/7kv
@@ -439,7 +436,7 @@
 		"Web Ontology Language Use Cases and Requirements" - http://w3.org/TR/webont-req/
 		http://daverog.wordpress.com/2013/05/30/ontologies-in-software-a-conflict-of-interest/
 
-		Web Ontology Language - https://dropbox.com/s/z89eswv4rgkjrlp/OWL.txt
+		Web Ontology Language - https://github.com/brylevkirill/tech/blob/master/RDF/OWL.txt
 
 		registry of all vocabularies - http://lov.okfn.org/dataset/lov/
 		most used terms/relations and vocabularies - http://lov.okfn.org/dataset/lov/stats/
@@ -685,6 +682,14 @@ permit statements about statements, into second order predicate calculus.
 
 	[native graph stores]
 
+	* Amazon Neptune
+		large-scale, low latency, graph database that supports both RDF graphs and property graphs, along with their respective query languages SPARQL and TinkerPop Gremlin
+
+		https://aws.amazon.com/neptune/
+
+		based on Systap Blazegraph [https://trademarkia.com/blazegraph-86498414.html] [https://news.ycombinator.com/item?id=15808379]
+
+
 	* Stardog
 		"You want to defer the schema, to partially define it incrementally, to enforce it, to infer from it. No technology offers more schema flexibility than RDF & OWL."
 
@@ -707,7 +712,8 @@ permit statements about statements, into second order predicate calculus.
 			http://highscalability.com/blog/2014/1/20/8-ways-stardog-made-its-database-insanely-scalable.html
 		custom made memory management scheme out of JVM heap with pauseless garbage collection
 
-		used by NASA for matching skills and specialists -
+		used by NASA -
+			https://stardog.com/blog/nasas-knowledge-graph/
 			https://blog.stardog.com/nasa-stardogs-going-to-mars/
 			http://w3.org/blog/2011/05/semantic-web-its-not-rocket-sc/
 		used by BestBuy for product search API - http://semanticweb.com/best-buy-releases-like-for-like-metis-api_b35328
@@ -840,6 +846,8 @@ permit statements about statements, into second order predicate calculus.
 		entailment through both materialization at load time (for RDF Schema) and at query time (for custom rules)
 		IChangeLog interface for intercepting queries and transactions
 		possibility to implement custom service to add application specific behaviors
+
+		overview - http://snee.com/bobdc.blog/2016/05/trying-out-blazegraph.html
 
 
 	* OpenLink Virtuoso
@@ -1003,7 +1011,7 @@ permit statements about statements, into second order predicate calculus.
 		http://d2rq.org + http://d2rq.org/d2r-server
 		https://github.com/d2rq/d2rq
 		own mapping language - http://d2rq.org/d2rq-language
-		R2RML mapping language - https://dropbox.com/s/k6qkkklxa25l682/R2RML.txt
+		R2RML mapping language - https://github.com/brylevkirill/tech/blob/master/RDF/R2RML.txt
 		developed in Java
 		support for PostgreSQL, MySQL, SQL Server, Oracle
 

@@ -47,7 +47,6 @@ schema.org
 		http://searchmetrics.com/en/searchmetrics/press/schema-org-in-google-search-results/
 		http://searchmetrics.com/en/knowledge-base/schemaorg-study-request/
 
-	schema.org applications - https://dropbox.com/s/72yzslwh5fmefvp/why%20RDF.txt (in russian)
 
 	relation between schema.org, RDF and Linked Data - http://lists.w3.org/Archives/Public/public-vocabs/2014Jun/0010.html
 	model-theoretic analysis - https://github.com/lidingpku/iswc2014/raw/master/paper/87960257-analyzing-schemaorg.pdf

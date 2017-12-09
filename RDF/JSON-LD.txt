@@ -92,7 +92,7 @@ JSON-LD
 		http://stanbol.apache.org/docs/trunk/components/factstore/specification.html
 
 	[Hydra API]
-	* vocabulary shared between server and client for generic description of API - http://markus-lanthaler.com/hydra/ + https://dropbox.com/s/rafruw54bu9u32z/Hydra.txt
+	* vocabulary shared between server and client for generic description of API - http://markus-lanthaler.com/hydra/ + https://github.com/brylevkirill/tech/blob/master/RDF/Hydra.txt
 
 	[samples]
 	REST API primer for W3C LDP with serialization in JSON-LD - http://w3.org/TR/ldp-primer/

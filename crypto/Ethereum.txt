@@ -11,27 +11,26 @@ Ethereum
 	"Smart contracts: intentionally apply tech to enable more kinds of deals between more far-flung and differently lawed/cultured people." [https://pbs.twimg.com/media/DDRjhDPXoAAwP5C.jpg:large]
 
 
-	Bitcoin uses blockchain to implement basic clearing house contract without a central server.
-	Ethereum uses blockchain to implement arbitrary social contracts without a central server.
+	http://telegra.ph/Blockchain-TweetStorm-06-22
 
-	"Place and run code in decentralised singleton isolated machine; code can call into other people's code on the machine; all transactions with the machine are crypto-signed and archived; state fully deterministic."
+
+	http://maciejolpinski.com/blog/why-i-no-longer-explain-ethereum-as-a-world-computer/ :
+
+	Web 1.0 - Static Document Networks - web of static pages connected via hyperlinks.
+	Web 2.0 - Social Networks - web of people connected via social links (likes, follows).
+	Web 3.0 - Incentive Networks - web of people connected via economic links (tokens).
 
 
 	https://coincenter.org/2016/03/what-is-ethereum/
 	https://medium.com/@ConsenSys/programmable-blockchains-in-context-ethereum-s-future-cd8451eb421e
-
-	"Ethereum: the World Computer" - https://youtube.com/watch?v=j23HnORQXvs
-
 	https://quora.com/Ethereum/What-is-Ethereum-in-laymans-term/answer/Stephan-Tual
-
-	introduction - http://youtube.com/watch?v=TDGq4aeevgY + https://youtube.com/watch?v=Clw-qf1sUZg + https://youtube.com/watch?v=fbEtivJIfIU
-
-	technical introduction - https://youtube.com/watch?v=66SaEDzlmP4
 
 
 	https://blog.ethereum.org/2015/04/05/bazaar-services/
 
-	introduction to smart contracts - http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
+	introduction to smart contracts -
+		https://youtube.com/watch?v=_MaGkPBoFc4
+		http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
 	introduction to autonomous organizations - http://policyreview.info/articles/news/ethereum-decentralised-platform-might-displace-todays-institutions/318
 
 	Ethereum - social operating system - https://medium.com/p/4790bf5f7743
@@ -43,13 +42,6 @@ Ethereum
 	Ethereum contract code is executed by miners and handles incoming and outgoing transactions in an arbitrary way unlike Bitcoin.
 	Ethereum contract can be constructed to regulate and incentivize arbitrary (economic) activity on the Internet or in real-world by machines or humans.
 	Ethereum internal currency can be viewed as oil when Bitcoin can be viewed as gold.
-
-
-	* "Sign in with Facebook"... without the Facebook
-	* Rating systems and reputations, without being tied to a platform
-	* Your digital assets are yours, and you cannot be arbitrarily denied access
-	* Contracts, not intermediaries
-	* Protecting users' data against companies which operate on that data
 
 
 	"Crypto 2.0 - State of the Onion - Smart Contracts for Smart Nations" by Vitalik Buterin - https://youtube.com/watch?v=dlENbnbqkr8
@@ -90,7 +82,7 @@ Ethereum
 	- equity  [ aragon.one ]
 	- financial instruments (such as derivatives, securities, funds, stocks, bonds)  [ projectactus.org ]
 	- escrow without mediator (insurance for purchase of good or service)
-	- decentralized exchange (conversion of cryptocurrencies/currencies)  [ bitsquare.io ] [ etherex.org ]
+	- decentralized exchange (conversion of cryptocurrencies/currencies)  [ 0xproject.com ] [ bitsquare.io ] [ etherex.org ]
 	- decentralized marketplace / auction (goods, financial, any digitized assets)  [ openbazaar.org ]
 	- micropayments  [ raiden.network ]
 	- external data feeds  [ town-crier.org ] [ oraclize.it ] [ realitykeys.com ] [ smartcontract.com ]
@@ -101,7 +93,7 @@ Ethereum
 	- identity  [ uport.me ]
 	- reputation systems  [ uport.me ]
 	- social networks  [ steem.io ] [ akasha.world ]
-	- any web of trust architectures
+	- content ranking  [ userfeeds.io ]
 	- timestamping / notarial service  [ proofofexistence.com ] [ po.et ]
 	- document revision control
 	- advertisement network  [ coincraft.io ]
@@ -123,6 +115,11 @@ Ethereum
 		http://wired.com/2016/12/overstock-com-issues-stock-via-bitcoin-blockchain/
 		http://wired.com/2015/12/sec-approves-plan-to-issue-company-stock-via-the-bitcoin-blockchain/
 		https://o.info/index.php/How_to_issue_a_cryptosecurity
+
+	Estonia considers ICO
+		https://medium.com/e-residency-blog/estonia-could-offer-estcoins-to-e-residents-a3a5a5d3c894
+
+	https://medium.com/@nelsonmrosario/unpopular-blockchain-opinions-d6221804ef44
 
 
 	developer resources:
@@ -160,26 +157,39 @@ Ethereum
 		http://vitalik.ca/files/problems.pdf
 
 	problems with Ethereum
+		https://blog.blockstack.org/the-road-ahead-for-ethereum-b5b090bcd1a
+
 		http://truthcoin.info/blog/contracts-oracles-sidechains/
 		https://medium.com/@tuurdemeester/why-im-short-ethereum-and-long-bitcoin-aee5b1c198fd
-		https://blog.blockstack.org/the-road-ahead-for-ethereum-b5b090bcd1a
 		http://gavintech.blogspot.ru/2014/06/bit-thereum.html
 		http://labs.humint.is/spinjar-bitcoin-vs-ethereum-a-test-case/
+		https://coindesk.com/three-smart-contract-misconceptions/
 
+		"Ethereum is useless" by Vitalik Buterin - https://reddit.com/r/btc/comments/6ldssd/so_no_worries_ethereums_long_term_value_is_still/djt6opz/
 
 	security
 		https://medium.com/@VitalikButerin/why-cryptoeconomics-and-x-risk-researchers-should-listen-to-each-other-more-a2db72b3e86b
 		https://blog.ethereum.org/2016/06/19/thinking-smart-contract-security/
 
 	proof-of-stake mining
-		https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
+		https://youtube.com/watch?v=9nQPcNY32JQ
+		https://youtube.com/watch?v=bSdwqa3Yl0Q
 
 		https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51
-		https://youtube.com/watch?v=bSdwqa3Yl0Q
 		https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ
 		https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/
 		https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/
 		https://medium.com/@Vlad_Zamfir/the-history-of-casper-chapter-4-3855638b5f0e
+
+		https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6
+		https://medium.com/@tuurdemeester/re-buterins-criticism-of-my-pos-piece-4ee70d6fd289
+		https://medium.com/@VitalikButerin/this-statement-is-misleading-because-he-is-really-only-talking-about-what-a-51-attacker-could-65cd02a2389e
+		http://truthcoin.info/blog/pow-cheapest/
+		http://truthcoin.info/blog/pow-and-mining/
+		Peter Todd - https://youtube.com/watch?v=sJToZYZAlik
+
+		Vlad Zamfir on proof of stake and scaling - https://youtube.com/watch?v=bj_Qpvx-GPM&list=PLqwJ8pFu44ZDkXbOSlFzP-HEsN51W5vi9
+		Chris DeRose - https://youtube.com/watch?v=z8DIN7vaoCY
 
 	scaling
 		https://github.com/ethereum/wiki/wiki/Sharding-FAQ
@@ -258,6 +268,11 @@ Ethereum
 	https://techcrunch.com/2017/01/08/the-future-is-a-decentralized-internet/
 		"In addition to rewarding founders, these app-tokens allow participants in networks to actually own a piece of the network. This network equity ownership is unprecedented. Consider how many networks the modern western internet user is a part of — Facebook, LinkedIn, Twitter, Uber, Airbnb, eBay, Etsy, Tumblr — the list goes on. In each of these cases, the network’s value is created by the users, but the value each individual user generates goes to the owners of the network. In this new blockchain-based model, that value is actually given back to the users of the network, proportional to their contribution."
 		"What this means is that what ultimately disrupts many of the major web services created in the last decade could be peer-to-peer protocols, not companies. This would be similar to the effect that the torrent protocol had on media companies, but on a much larger scale. The result would be twitter the protocol without Twitter the company, facebook without Facebook, uber without Uber. And as an investor, for the first time, it is possible to buy a portion of these networks, which will power the future infrastructure of the internet."
+
+
+
+
+	"In the industrial model their roles of the employer, employee, shareholder, CEO etc were fixed and expected contributions clearly defined. In the Bitcoin model, these roles are fluid. Users just contribute value to the ‘Bitcoin organisation’ depending on provided incentives and disposable resources they have (know-how, capital, appetite for risk etc). Functionally, people just ‘do’ stuff for the Bitcoin network as they would for their employer. They provide IT infrastructure, write code, do marketing etc. They perform actions in the physical world because Bitcoin’s incentives make it profitable to do so. Bitcoin proved that economic coordination at the global scale that was previously extremely costly is now possible with pure software. This is the real breakthrough of Bitcoin. The fact that the first ‘product’ of the ‘Bitcoin organisation’ is a money-like asset class is important but secondary here. There will be many more Decentralised Autonomous Organisations (DAOs) that deliver other products to the world using the same paradigm that Bitcoin pioneered."
 
 
 

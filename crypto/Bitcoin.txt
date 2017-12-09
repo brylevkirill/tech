@@ -22,11 +22,14 @@ Bitcoin
 
 
 	https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
+	http://telegra.ph/Blockchain-TweetStorm-06-22
 
 
 	history - http://coinscrum.com/2015/10/29/what-satoshi-did/
 
-	smart contracts as a killer application - http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
+	smart contracts as a killer application -
+		https://youtube.com/watch?v=_MaGkPBoFc4
+		http://fastcolabs.com/3035723/app-economy/smart-contracts-could-be-cryptocurrencys-killer-app
 
 	how Bitcoin works
 		http://imponderablethings.com/2013/07/how-bitcoin-works-under-hood.html
@@ -87,6 +90,7 @@ Bitcoin
 
 	all kinds of applications on Bitcoin platform - http://ledracapital.com/blog/2014/3/11/bitcoin-series-24-the-mega-master-blockchain-list
 
+
 	zero-knowledge contingent payments as alternative to smart contracts - https://bitcoincore.org/en/2016/02/26/zero-knowledge-contingent-payments-announcement/
 
 	Bitcoin and other crypto-currencies (altcoins) - http://themisescircle.org/blog/2014/03/14/the-coming-demise-of-the-altcoins/
@@ -105,14 +109,16 @@ Bitcoin
 
 	all main questions on Bitcoin - http://youtube.com/watch?v=JP9-lAYngi4 + https://youtube.com/watch?v=GykNHFNdFOg
 
+
 	positive reviews:
-		guide by Marc Andreessen - http://mobile.nytimes.com/blogs/dealbook/2014/01/21/why-bitcoin-matters/
-		http://cryptocrimson.com/2014/03/internet-pioneer-marc-andreessen-goes-all-in-on-bitcoin/
-		opinion of director of the US dollar mint - http://edmoy.com/the-currency-revolution-courtesy-of-bitcoin/
 		http://nakamotoinstitute.org/mempool/how-we-know-bitcoin-is-not-a-bubble/
 	negative reviews:
+		http://coindesk.com/blockchain-intermediaries-hype/
 		http://brokenlibrarian.org/bitcoin/
 		http://unqualified-reservations.blogspot.ca/2013/01/how-bitcoin-dies.html
+		http://bloomberg.com/news/articles/2017-11-28/vanguard-founder-jack-bogle-says-avoid-bitcoin-like-the-plague
+		http://bloomberg.com/news/articles/2017-11-29/bitcoin-ought-to-be-outlawed-nobel-prize-winner-stiglitz-says-jal10hxd
+
 
 	statistics:
 		https://blog.coinbase.com/2015/07/15/bitcoin-trends-in-1h-2015/
@@ -130,7 +136,9 @@ Bitcoin
 
 		Bitcoin network activity monitoring - https://bitiodine.net
 
+
 	state of adoption:
+		https://swissinfo.ch/eng/-game-changer-_swiss-private-bank-accepts-bitcoin/43328354
 		http://wired.com/2015/12/sec-approves-plan-to-issue-company-stock-via-the-bitcoin-blockchain/
 		http://coindesk.com/16-blockchain-tech-predictions-2016/
 		https://blog.coinbase.com/2015/11/20/introducing-the-shift-card/
@@ -143,7 +151,10 @@ Bitcoin
 		position of US Cenral Bank - http://coindesk.com/federal-reserve-bitcoin-potential-boon-global-commerce/
 		position of California state - http://reuters.com/article/2014/06/29/us-usa-california-bitcoin-idUSKBN0F402T20140629
 
+
 	open problems:
+		https://medium.com/@nelsonmrosario/unpopular-blockchain-opinions-d6221804ef44
+
 		http://vox.com/new-money/2016/11/21/13669662/bitcoin-ethereum-future-explained
 
 		https://medium.com/@octskyward/the-resolution-of-the-bitcoin-experiment-dabb30201f7
@@ -157,13 +168,13 @@ Bitcoin
 		- the limited expressiveness of transaction language which has pushed smart contracts into separate projects
 		- other issues outlined by author of Tezos proposal - https://medium.com/@lmgoodman/dispelling-some-myths-about-bitcoin-from-a-bitcoin-fan-5b64f3850550
 
-		scalability
+		capacity and scaling
 			https://medium.com/@jimmysong/why-bitcoin-transaction-capacity-doesnt-really-matter-fddcc0c9f021
 			https://medium.com/@jimmysong/why-bitcoin-will-get-scaling-without-segwit-or-large-blocks-772799fab021
 			http://truthcoin.info/blog/blocksize-conversation/
-			http://gavinandresen.ninja/satoshi-roundtable-thoughts
+
 			possible solutions:
-				https://github.com/bitcoinclassic/documentation/blob/master/roadmap/roadmap2016.md
+				https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-July/014718.html
 				http://hackingdistributed.com/2015/10/14/bitcoin-ng/
 				http://cointelegraph.com/news/112917/this-is-how-factom-can-solve-blockchains-bloat-and-scalability-issues
 
@@ -171,6 +182,7 @@ Bitcoin
 			https://unenumerated.blogspot.ru/2017/02/money-blockchains-and-social-scalability.html
 			http://truthcoin.info/blog/pow-cheapest/
 			http://truthcoin.info/blog/pow-and-mining/
+			https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6
 
 			http://hackingdistributed.com/2017/02/23/green-blockchains/
 			https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51
@@ -193,6 +205,7 @@ Bitcoin
 
 		low transaction fees
 			http://coindesk.com/new-study-low-bitcoin-transaction-fees-unsustainable
+
 
 	consensus system is a way of creating a complex valuation equilibrium, and protecting it with:
 	- coordination problem
